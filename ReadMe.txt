@@ -1,0 +1,1 @@
+Electric Supply Customer Management System manages an Electric Supply office.. It tracks Customer Application, Payment, Bills, Status of work etc.
