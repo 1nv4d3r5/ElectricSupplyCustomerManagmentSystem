@@ -1,0 +1,54 @@
+﻿<Window x:Class="ECMS.Connection"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:sys="clr-namespace:System;assembly=mscorlib"
+        DataContext="{Binding RelativeSource={RelativeSource Self}}"
+        Title="Connection"
+        Height="650" Width="1200"
+        VerticalContentAlignment="Center"
+        FontStretch="UltraExpanded"
+        Background="Black"
+        >
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/EscmsStyles;component/ControlStyle.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
+    <DockPanel>
+        <UniformGrid  DockPanel.Dock="top" Rows="1">
+            <Button Content="View Details" ToolTip="View or Refresh" Name="viewConnectionBtn" Style="{StaticResource smallControlBtnStyle}" Click="viewConnectionBtn_Click"></Button>
+            <Button Content="Add New Connection"  ToolTip="Click To Add New Connection" Name="addNewConnectionBtn" Style="{StaticResource smallControlBtnStyle}" Click="addNewConnectionBtn_Click"></Button>
+            <Button Content="Edit Details" ToolTip="Edit Details" Name="editConnectionBtn" Style="{StaticResource smallControlBtnStyle}" Click="editConnectionBtn_Click"></Button>
+            <Button Content="Delete Details" ToolTip="Delete Selected Details" Name="deleteConnectionBtn" Style="{StaticResource smallControlBtnStyle}" Click="deleteConnectionBtn_Click"></Button>
+        
+        </UniformGrid>
+        <UniformGrid  DockPanel.Dock="Bottom" Rows="1" Columns="7">
+            <Label></Label>
+            <Label></Label>
+            <Label></Label>
+            <Label></Label>
+            <Label></Label>
+            <Label></Label>
+            <Button Content="Cancel" ToolTip="Cancel" Name="cancelBtn" Style="{StaticResource smallControlBtnStyle}" Click="cancelBtn_Click"></Button>
+        </UniformGrid>
+        <UniformGrid DockPanel.Dock="top">
+            <ListView Name="newConnectionView" ItemsSource="{Binding newConnectionCollection}">
+                <ListView.View>
+                    <GridView>
+                        <GridViewColumn Width="120" Header="Application ID"  DisplayMemberBinding="{Binding appsNo}"  />
+                        <GridViewColumn Width="120" Header="Payment ID"  DisplayMemberBinding="{Binding paymentId}"  />
+                        <GridViewColumn Width="200" Header="Name"  DisplayMemberBinding="{Binding name}"  />
+                        <GridViewColumn Width="300" Header="Address"  DisplayMemberBinding="{Binding address}"  />
+                        <GridViewColumn Width="120" Header="Contact"  DisplayMemberBinding="{Binding phone}"  />
+                        <GridViewColumn Width="120" Header="Initial Amount"  DisplayMemberBinding="{Binding initialAmount}"  />
+                        <GridViewColumn Width="140" Header="Received Date"  DisplayMemberBinding="{Binding receivedDate}"  />
+                        <GridViewColumn Width="140" Header="Amount Received On"  DisplayMemberBinding="{Binding amountReceivedOn}"  />
+                    </GridView>
+                </ListView.View>
+            </ListView>
+        </UniformGrid>
+    </DockPanel>
+
+</Window>

@@ -1,0 +1,44 @@
+﻿<Window x:Class="ECMS.AddContractor"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Add Contractor" Height="650" Width="1200"
+        VerticalContentAlignment="Center"
+        FontStretch="UltraExpanded"
+        Background="Black"
+        >
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/EscmsStyles;component/ControlStyle.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
+    <DockPanel>
+    <UniformGrid  Columns="4">
+            <Label></Label>
+            <Label Content="Contractor ID  :"  Style="{StaticResource labelStyle}"/>
+            <Label Content="" Name="contractorLbl"  Style="{StaticResource labelStyle}"></Label>
+            <Label></Label>
+            <Label></Label>
+            <Label Content="Name  :" Style="{StaticResource labelStyle}"/>
+            <TextBox Name="nameTxtbox"  Style="{StaticResource textboxStyle}"></TextBox>
+            <Label></Label>
+            <Label></Label>
+            <Label Content="Address  :"  Style="{StaticResource labelStyle}" />
+            <TextBox  Name="addressTxtbox"   Style="{StaticResource textboxStyle}"></TextBox>
+            <Label></Label>
+            <Label></Label>
+            <Label Content="Contact No.  :"  Style="{StaticResource labelStyle}"/>
+            <TextBox  Name="contactNoTxtbox"  Style="{StaticResource textboxStyle}"></TextBox>
+            <Label></Label>
+            <Label></Label>
+            <Label Content="Contract Details  :"  Style="{StaticResource labelStyle}"/>
+            <TextBox  Name="contractDetailsTxtbox"  Style="{StaticResource textboxStyle}"></TextBox>
+            <Label></Label>
+            <Label></Label>
+            <Button Content="Cancel" ToolTip="Cancel" Name="cancelBtn" Style="{StaticResource smallControlBtnStyle}" Click="cancelBtn_Click"></Button>
+            <Button Content="Submit" ToolTip="Submit" Name="submitBtn" Style="{StaticResource smallControlBtnStyle}" Click="submitBtn_Click"></Button>
+            <Label></Label>
+    </UniformGrid>
+</DockPanel>
+</Window>

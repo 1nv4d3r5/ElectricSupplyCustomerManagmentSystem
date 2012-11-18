@@ -1,0 +1,24 @@
+﻿<Window x:Class="ECMS.Credits"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Help" Height="450" Width="900"
+        VerticalContentAlignment="Center"
+        FontStretch="UltraExpanded"
+        Background="Black"
+        >
+
+    <DockPanel>
+        <UniformGrid VerticalAlignment="Center" HorizontalAlignment="Center" Rows="3">
+            <TextBlock Foreground="White" HorizontalAlignment="Right" FontSize="20">
+                This software has been devolpoed by Dipanwita Dey and Susmita Podder under the company  
+            </TextBlock>
+            <TextBlock Foreground="White" FontSize="20">
+                named Technecise for partially accomplisement of M.Sc.(Computer Technology).
+            </TextBlock>
+            <TextBlock Foreground="White" FontSize="20">
+                For more details log on to 
+www.technecise.com.
+            </TextBlock>
+        </UniformGrid>
+    </DockPanel>
+</Window>

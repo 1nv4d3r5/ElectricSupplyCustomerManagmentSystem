@@ -1,0 +1,63 @@
+﻿<Window x:Class="ECMS.AddEmployee"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Add Employee"  Height="650" Width="1200"
+        VerticalContentAlignment="Center"
+        FontStretch="UltraExpanded"
+        Background="Black"
+        >
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/EscmsStyles;component/ControlStyle.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
+    <DockPanel>
+        <UniformGrid  Columns="4">
+            <Label></Label>
+            <Label Content="Employee ID  :"  Style="{StaticResource labelStyle}"/>
+            <Label Content="" Name="employeeLbl"  Style="{StaticResource labelStyle}"></Label>
+            <Label></Label>
+            <Label></Label>
+            <Label Content="Name" Style="{StaticResource labelStyle}"/>
+            <TextBox Name="nameTxtbox"  Style="{StaticResource textboxStyle}"></TextBox>
+            <Label></Label>
+            <Label></Label>
+            <Label Content="Address  :"  Style="{StaticResource labelStyle}" />
+            <TextBox  Name="addressTxtbox"   Style="{StaticResource textboxStyle}"></TextBox>
+            <Label></Label>
+            <Label></Label>
+            <Label Content="Contact No.  :"  Style="{StaticResource labelStyle}"/>
+            <TextBox  Name="contactNoTxtbox"  Style="{StaticResource textboxStyle}"></TextBox>
+            <Label></Label>
+            <Label></Label>
+            <Label Content="Post Type :"  Style="{StaticResource labelStyle}"/>
+            <ComboBox Name="typeComboBox" SelectedIndex="0" Style="{StaticResource CBStyle}">
+                <ComboBoxItem Style="{StaticResource CBItemStyle}">DataEnterer</ComboBoxItem>
+                <ComboBoxItem Style="{StaticResource CBItemStyle}">Officer</ComboBoxItem>
+                <ComboBoxItem Style="{StaticResource CBItemStyle}">Admin</ComboBoxItem>
+                <ComboBoxItem Style="{StaticResource CBItemStyle}">Estimator</ComboBoxItem>
+            </ComboBox>
+            <Label></Label>
+            <Label></Label>
+            <Label Content="Date of joining  :"  Style="{StaticResource labelStyle}"/>
+            <DatePicker  Name="dateOfjoiningDateDatePicker" Style="{StaticResource DPStyle}"></DatePicker>
+            <Label></Label>
+            <Label></Label>
+            <Label Content="Department  :"  Style="{StaticResource labelStyle}"/>
+            <ComboBox Name="depertmentCB" SelectedIndex="2" Style="{StaticResource CBStyle}">
+                <ComboBoxItem Style="{StaticResource CBItemStyle}">Customer Care</ComboBoxItem>
+                <ComboBoxItem Style="{StaticResource CBItemStyle}">Billing</ComboBoxItem>
+                <ComboBoxItem Style="{StaticResource CBItemStyle}">Accountant</ComboBoxItem>
+                <ComboBoxItem Style="{StaticResource CBItemStyle}">Other</ComboBoxItem>
+            </ComboBox>
+            <Label></Label>
+            <Label></Label>
+            <Button Content="Cancel" ToolTip="Cancel" Name="cancelBtn" Style="{StaticResource smallControlBtnStyle}" Click="cancleBtn_Click"></Button>
+            <Button Content="Submit" ToolTip="Submit" Name="submitBtn" Style="{StaticResource smallControlBtnStyle}" Click="submitBtn_Click"></Button>
+            <Label></Label>
+        </UniformGrid>
+
+    </DockPanel>
+</Window>

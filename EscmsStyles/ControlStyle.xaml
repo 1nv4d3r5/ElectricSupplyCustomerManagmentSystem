@@ -1,0 +1,171 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Style x:Key="ControlBtnStyle" TargetType="Button">
+        <Setter Property="Background">
+            <Setter.Value>
+                <RadialGradientBrush>
+                    <GradientStop Color="Brown" Offset="0" />
+                    <GradientStop Color="Black" Offset="1" />
+                </RadialGradientBrush>
+            </Setter.Value>
+        </Setter>
+        <Setter Property="Foreground" Value="#FFE9F9DE" />
+        <Setter Property="FontSize" Value="20" />
+        <Setter Property="FontWeight" Value="Bold" />
+        <Setter Property="BorderBrush" Value="#FF3DC43D" />
+        <Setter Property="Width" Value="300" />
+        <Setter Property="Height" Value="100" />
+        <Setter Property="OpacityMask" Value="White" />
+        <Setter Property="Cursor" Value="Hand" />
+    </Style>
+    <Style x:Key="smallControlBtnStyle" TargetType="Button">
+        <Setter Property="Background">
+            <Setter.Value>
+                <RadialGradientBrush>
+                    <GradientStop Color="Brown" Offset="0" />
+                    <GradientStop Color="Black" Offset="1" />
+                </RadialGradientBrush>
+            </Setter.Value>
+        </Setter>
+        <Setter Property="Foreground" Value="#FFE9F9DE" />
+        <Setter Property="FontSize" Value="20" />
+        <Setter Property="FontWeight" Value="Bold" />
+        <Setter Property="BorderBrush" Value="#FF3DC43D" />
+        <Setter Property="Margin" Value="10"/>
+        <Setter Property="OpacityMask" Value="White" />
+        <Setter Property="Cursor" Value="Hand" />
+    </Style>
+    <Style x:Key="bigLabelStyle" TargetType="Label">
+        <Setter Property="Background">
+            <Setter.Value>
+                <RadialGradientBrush>
+                    <GradientStop Color="Brown" Offset="0" />
+                    <GradientStop Color="Black" Offset="1" />
+                </RadialGradientBrush>
+            </Setter.Value>
+        </Setter>
+        <Setter Property="Foreground" Value="#FFE9F9DE" />
+        <Setter Property="FontSize" Value="36" />
+        <Setter Property="FontWeight" Value="Bold" />
+        <Setter Property="Height" Value="100" />
+        <Setter Property="HorizontalContentAlignment" Value="Center" />
+        <Setter Property="VerticalContentAlignment" Value="Center" />
+        <Setter Property="Margin" Value="10"/>
+    </Style>
+    <Style x:Key="labelStyle" TargetType="Label">
+        <Setter Property="Background">
+            <Setter.Value>
+                <RadialGradientBrush>
+                    <GradientStop Color="Brown" Offset="0" />
+                    <GradientStop Color="Black" Offset="1" />
+                </RadialGradientBrush>
+            </Setter.Value>
+        </Setter>
+        <Setter Property="Foreground" Value="#FFE9F9DE" />
+        <Setter Property="FontSize" Value="16" />
+        <Setter Property="FontWeight" Value="Bold" />
+        <!--<Setter Property="Height" Value="100" />-->
+        <Setter Property="HorizontalContentAlignment" Value="Center" />
+        <Setter Property="VerticalContentAlignment" Value="Center" />
+        <!--<Setter Property="Margin" Value="10"/>-->
+    </Style>
+    <Style x:Key="textboxStyle" TargetType="TextBox">
+        <Setter Property="Background">
+            <Setter.Value>
+                <RadialGradientBrush>
+                    <GradientStop Color="Brown" Offset="0" />
+                    <GradientStop Color="Black" Offset="1" />
+                </RadialGradientBrush>
+            </Setter.Value>
+        </Setter>
+        <Setter Property="Foreground" Value="White" />
+        <Setter Property="FontSize" Value="16" />
+        <Setter Property="FontWeight" Value="Bold" />
+        <Setter Property="VerticalContentAlignment" Value="Center" />
+    </Style>
+    <Style x:Key="PasswordBoxStyle"  TargetType="PasswordBox">
+        <Setter Property="Background">
+            <Setter.Value>
+                <RadialGradientBrush>
+                    <GradientStop Color="Brown" Offset="0" />
+                    <GradientStop Color="Black" Offset="1" />
+                </RadialGradientBrush>
+            </Setter.Value>
+        </Setter>
+        <Setter Property="Foreground" Value="#FFE9F9DE" />
+        <Setter Property="FontSize" Value="16" />
+        <Setter Property="FontWeight" Value="Bold" />
+        <!--<Setter Property="Height" Value="100" />-->
+        <!--<Setter Property="HorizontalContentAlignment" Value="Center" />-->
+        <Setter Property="VerticalContentAlignment" Value="Center" />
+        <!--<Setter Property="Margin" Value="10"/>-->
+    </Style>
+    <Style x:Key="CBStyle" TargetType="ComboBox">
+        <Setter Property="Background">
+            <Setter.Value>
+                <RadialGradientBrush>
+                    <GradientStop Color="Brown" Offset="0" />
+                    <GradientStop Color="Black" Offset="1" />
+                </RadialGradientBrush>
+            </Setter.Value>
+        </Setter>
+        <Setter Property="Foreground" Value="#FFE9F9DE" />
+        <Setter Property="FontSize" Value="20" />
+        <Setter Property="FontWeight" Value="Bold" />
+        <Setter Property="BorderBrush" Value="#FF3DC43D" />
+        <Setter Property="Margin" Value="20"/>
+        <Setter Property="OpacityMask" Value="White" />
+        <Setter Property="HorizontalContentAlignment" Value="Center" />
+        <Setter Property="VerticalContentAlignment" Value="Center" />
+    </Style>
+    <Style x:Key="CBStyleForName" TargetType="ComboBox">
+        <Setter Property="Background">
+            <Setter.Value>
+                <RadialGradientBrush>
+                    <GradientStop Color="Brown" Offset="0" />
+                    <GradientStop Color="Black" Offset="1" />
+                </RadialGradientBrush>
+            </Setter.Value>
+        </Setter>
+        <Setter Property="Foreground" Value="#FFE9F9DE" />
+        <Setter Property="FontSize" Value="20" />
+        <Setter Property="FontWeight" Value="Bold" />
+        <Setter Property="BorderBrush" Value="#FF3DC43D" />
+        <!--<Setter Property="Margin" Value="20"/>-->
+        <Setter Property="OpacityMask" Value="White" />
+        <Setter Property="HorizontalContentAlignment" Value="Center" />
+        <Setter Property="VerticalContentAlignment" Value="Center" />
+    </Style>
+    <Style x:Key="CBItemStyle" TargetType="ComboBoxItem">
+        <Setter Property="Background">
+            <Setter.Value>
+                <RadialGradientBrush>
+                    <GradientStop Color="Brown" Offset="0" />
+                    <GradientStop Color="Black" Offset="1" />
+                </RadialGradientBrush>
+            </Setter.Value>
+        </Setter>
+        <Setter Property="Foreground" Value="#FFE9F9DE" />
+        <Setter Property="FontSize" Value="20" />
+        <Setter Property="FontWeight" Value="Bold" />
+        <Setter Property="BorderBrush" Value="#FF3DC43D" />
+        <Setter Property="OpacityMask" Value="White" />
+    </Style>
+    <Style x:Key="DPStyle" TargetType="DatePicker" >                
+    <Setter Property="Background">
+        <Setter.Value>
+            <RadialGradientBrush>
+                <GradientStop Color="Brown" Offset="0" />
+                <GradientStop Color="Black" Offset="1" />
+            </RadialGradientBrush>
+        </Setter.Value>
+    </Setter>
+    <Setter Property="Foreground" Value="#FFE9F9DE" />
+    <Setter Property="FontSize" Value="20" />
+    <Setter Property="FontWeight" Value="Bold" />
+    <Setter Property="BorderBrush" Value="#FF3DC43D" />
+    <Setter Property="Margin" Value="10" />
+    <Setter Property="VerticalContentAlignment" Value="Center" />
+    <Setter Property="OpacityMask" Value="White" />
+    </Style>
+</ResourceDictionary>

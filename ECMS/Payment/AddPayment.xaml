@@ -1,0 +1,42 @@
+﻿<Window x:Class="ECMS.AddPayment"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:sys="clr-namespace:System;assembly=mscorlib"
+        DataContext="{Binding RelativeSource={RelativeSource Self}}"
+        Title="Add Payment"  Height="650" Width="1200"
+        VerticalContentAlignment="Center"
+        FontStretch="UltraExpanded"
+        Background="Black" Loaded="Window_Loaded">
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/EscmsStyles;component/ControlStyle.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+
+    </Window.Resources>
+    <DockPanel>
+    <UniformGrid  Columns="4">
+            <Label></Label>
+            <Label Content="Payment ID  :"  Style="{StaticResource labelStyle}"/>
+            <Label Content="" Name="paymentIdLbl"  Style="{StaticResource labelStyle}"></Label>
+            <Label></Label>
+            <Label></Label>
+            <Label Content="Name  :" Style="{StaticResource labelStyle}"/>
+            <ComboBox Name="nameTxtbox" SelectedIndex="0"  Style="{StaticResource CBStyle}" ItemsSource="{Binding customerCollection}" DisplayMemberPath="name" SelectedValuePath="id" ></ComboBox>
+            <Button Name="addCustomerBtn"  Style="{StaticResource smallControlBtnStyle}" Click="addCustomerBtn_Click">Add New Customer</Button>
+            <Label></Label>
+            <Label Content="Amount  :"  Style="{StaticResource labelStyle}" />
+            <TextBox  Name="amountTxtbox"   Style="{StaticResource textboxStyle}"></TextBox>
+            <Label></Label>
+            <Label></Label>
+            <Label Content="Date of Payment  :"  Style="{StaticResource labelStyle}"/>
+            <DatePicker  Name="dopDatePicker" Style="{StaticResource DPStyle}"></DatePicker>
+            <Label></Label>
+            <Label></Label>
+            <Button Content="Cancel"  ToolTip="Cancel" Name="cancelBtn" Style="{StaticResource smallControlBtnStyle}" Click="cancelBtn_Click"></Button>
+            <Button Content="Submit"  ToolTip="Submit" Name="submitBtn" Style="{StaticResource smallControlBtnStyle}" Click="submitBtn_Click"></Button>
+            <Label></Label>
+        </UniformGrid>
+    </DockPanel>
+</Window>

@@ -1,0 +1,42 @@
+﻿<Window x:Class="ECMS.Settings"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Settings"
+        Height="650" Width="1200"
+        VerticalContentAlignment="Center"
+        FontStretch="UltraExpanded"
+        Background="Black">
+        
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/EscmsStyles;component/ControlStyle.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
+    <DockPanel>
+        <UniformGrid DockPanel.Dock="Top" Columns="4">
+            <Label></Label>
+            <Label Content="Supply Station Name  :" Margin="20" Style="{StaticResource labelStyle}"/>
+            <TextBox  Name="supplyStationNameTxtbox" Margin="20"  Style="{StaticResource textboxStyle}"></TextBox>
+            <Label></Label>
+            <Label></Label>
+            <Label Content="Supply Station Address  :" Margin="20" Style="{StaticResource labelStyle}"/>
+            <TextBox  Name="supplyStationAddressTxtbox" Margin="20"  Style="{StaticResource textboxStyle}"></TextBox>
+            <Label></Label>
+            <Label></Label>
+            <Label Content="Contact No.  :" Margin="20" Style="{StaticResource labelStyle}" />
+            <TextBox  Name="contactNoTxtbox" Margin="20"  Style="{StaticResource textboxStyle}"></TextBox>
+            <Label></Label>
+            <Label></Label>
+            <Label Content="Toll Free No.  :" Margin="20" Style="{StaticResource labelStyle}" />
+            <TextBox  Name="tollFreeNoTxtbox" Margin="20"  Style="{StaticResource textboxStyle}"></TextBox>
+            <Label></Label>
+            <Button Content="Save Changes"  ToolTip="Save Changes" Margin="20" Name="saveChangesBtn" Style="{StaticResource smallControlBtnStyle}" Click="saveChangesBtn_Click"></Button>
+            <Button Content="Change Password" ToolTip="Change Password" Margin="20" Name="changePasswordBtn" Style="{StaticResource smallControlBtnStyle}" Click="changePasswordBtn_Click"></Button>
+            <Button Content="Load Existing Settings" ToolTip="Load Existing Settings" Margin="20" Name="loadExistingSettingsBtn" Style="{StaticResource smallControlBtnStyle}"></Button>
+            <Button Content="Cancel" ToolTip="Cancel" Margin="20" Name="cancelBtn" Style="{StaticResource smallControlBtnStyle}" Click="cancelBtn_Click"></Button>
+
+        </UniformGrid>
+    </DockPanel>
+</Window>

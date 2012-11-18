@@ -1,0 +1,54 @@
+﻿<Window x:Class="ECMS.WorkOrder"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:sys="clr-namespace:System;assembly=mscorlib"
+        DataContext="{Binding RelativeSource={RelativeSource Self}}"
+        Title="Work Order" 
+        Height="650" Width="1200"
+        VerticalContentAlignment="Center"
+        FontStretch="UltraExpanded"
+        Background="Black"
+        >
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/EscmsStyles;component/ControlStyle.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
+    <DockPanel>
+        <UniformGrid  DockPanel.Dock="top" Rows="1">
+            <Button Content="View Details" ToolTip="View Or Refresh" Name="viewWorkOrderBtn" Style="{StaticResource smallControlBtnStyle}" Click="viewWorkOrderBtn_Click"></Button>
+            <Button Content="Assign Contractor" ToolTip="Click To Assign Contractor" Name="addWorkOrderBtn" Style="{StaticResource smallControlBtnStyle}" Click="addWorkOrderBtn_Click"></Button>
+        </UniformGrid>
+        <UniformGrid  DockPanel.Dock="Bottom" Rows="1" Columns="7">
+            <Label></Label>
+            <Label></Label>
+            <Label></Label>
+            <Label></Label>
+            <Label></Label>
+            <Label></Label>
+            <Button Content="Cancel" ToolTip="Cancel" Name="cancelBtn" Style="{StaticResource smallControlBtnStyle}" Click="cancelBtn_Click"></Button>
+        </UniformGrid>
+        <UniformGrid DockPanel.Dock="top">
+            <ListView Name="workOrderView" ItemsSource="{Binding estimateCollection}">
+                <ListView.View>
+                    <GridView>
+                        <GridViewColumn Width="100" Header="Application No."  DisplayMemberBinding="{Binding appsNo}"  />
+                        <GridViewColumn Width="100" Header="Name"  DisplayMemberBinding="{Binding name}"  />
+                        <GridViewColumn Width="100" Header="Address"  DisplayMemberBinding="{Binding address}"  />
+                        <GridViewColumn Width="100" Header="Contact No."  DisplayMemberBinding="{Binding contact}"  />
+                        <GridViewColumn Width="160" Header="Assigned Estimator"  DisplayMemberBinding="{Binding estimator}"  />
+                        <GridViewColumn Width="160" Header="Wire Length Required"  DisplayMemberBinding="{Binding wireLength}"  />
+                        <GridViewColumn Width="100" Header="Angle Type"  DisplayMemberBinding="{Binding angleType}"  />
+                        <GridViewColumn Width="160" Header="Weight of Angle "  DisplayMemberBinding="{Binding angleWeight}"  />
+                        <GridViewColumn Width="160" Header="Quotation Amount"  DisplayMemberBinding="{Binding quotationAmount}"  />
+
+                        <GridViewColumn Width="160" Header="Assigned Contractor"  DisplayMemberBinding="{Binding contractor }"  />
+                    </GridView>
+                </ListView.View>
+            </ListView>
+        </UniformGrid>
+    </DockPanel>
+
+</Window>

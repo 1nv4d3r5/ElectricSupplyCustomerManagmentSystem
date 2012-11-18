@@ -1,0 +1,60 @@
+﻿<Window x:Class="ECMS.newapplication"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+         xmlns:sys="clr-namespace:System;assembly=mscorlib"
+        DataContext="{Binding RelativeSource={RelativeSource Self}}"
+        Title="New Connection"
+        Height="650" Width="1200"
+        VerticalContentAlignment="Center"
+        FontStretch="UltraExpanded"
+        Background="Black" >
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/EscmsStyles;component/ControlStyle.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
+    <DockPanel>
+        <UniformGrid Columns="4">
+            <Label></Label>
+            <Label Content="Payment ID" Style="{StaticResource labelStyle}"/>
+            <ComboBox Name="paymentIDTxtbox" SelectionChanged="paymentIDTxtbox_SelectionChanged" Style="{StaticResource CBStyle}" ItemsSource="{Binding paymentInfoCollection}" SelectedValuePath="id" DisplayMemberPath="id"></ComboBox>
+            <Label></Label>
+            <Label></Label>
+            <Label Content="Name :" Style="{StaticResource labelStyle}"/>
+            <Label Name="nameTxtbox"  Style="{StaticResource labelStyle}"></Label>
+            <Label></Label>
+            <Label></Label>
+            <Label Content="Customer Id :" Style="{StaticResource labelStyle}"/>
+            <Label Name="customerIdlabel"  Style="{StaticResource labelStyle}"></Label>
+            <Label></Label>
+            <Label></Label>
+            <Label Content="Address  :"  Style="{StaticResource labelStyle}" />
+            <Label Name="addressTxtbox" Style="{StaticResource labelStyle}"/>
+            <Label></Label>
+            <Label></Label>
+            <Label Content="Contact No.  :"  Style="{StaticResource labelStyle}"/>
+            <Label Name="contactNoTxtbox"  Style="{StaticResource labelStyle}"/>
+            <Label></Label>
+            <Label></Label>
+            <Label Content="Initial Deposit Amount  :"  Style="{StaticResource labelStyle}"/>
+            <Label Name="initialDepositAmountTxtbox"  Style="{StaticResource labelStyle}"/>
+            <Label></Label>
+            <Label></Label>
+            <Label Content="Amount Received On  :"   Style="{StaticResource labelStyle}"/>
+            <DatePicker  Name="amountReceivedOnDatePicker" IsEnabled="False" VerticalContentAlignment="Center"></DatePicker>
+            <Label></Label>
+            <Label></Label>
+            <Label Content="Application Received Date  :"  Style="{StaticResource labelStyle}"/>
+            <DatePicker  Name="applicationReceivedDateDatePicker"  VerticalContentAlignment="Center"></DatePicker>
+            <Label></Label>
+
+            <Label></Label>
+            <Button Content="Cancel" Name="cancelBtn" ToolTip="Cancel" Style="{StaticResource smallControlBtnStyle}" Click="cancelBtn_Click"></Button>
+            <Button Content="Submit" Name="submitBtn" ToolTip="Submit" Click="submitBtn_Click"  Style="{StaticResource smallControlBtnStyle}"></Button>
+            <Label></Label>            
+        </UniformGrid>
+
+    </DockPanel>
+</Window>

@@ -1,0 +1,67 @@
+﻿<Window x:Class="ECMS.AssignContractor"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+         xmlns:sys="clr-namespace:System;assembly=mscorlib"
+        DataContext="{Binding RelativeSource={RelativeSource Self}}"
+        Title="Add Quotation" 
+        Height="650" Width="1200"
+        VerticalContentAlignment="Center"
+        FontStretch="UltraExpanded"
+        Background="Black" Loaded="Window_Loaded">
+    <Window.Resources>
+<ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/EscmsStyles;component/ControlStyle.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
+    <DockPanel>
+        <UniformGrid Columns="4">
+            <Label></Label>
+            <Label Content="Application No.  :" Style="{StaticResource labelStyle}"/>
+            <TextBox Name="applicationNoTB" Style="{StaticResource textboxStyle}" IsEnabled="false"></TextBox>
+            <Label></Label>
+            <Label></Label>
+            <Label Content="Name  :" Style="{StaticResource labelStyle}"/>
+            <TextBox Name="nameTxtbox"  Style="{StaticResource textboxStyle}" IsEnabled="false"></TextBox>
+            <Label></Label>
+            <Label></Label>
+            <Label Content="Address  :"  Style="{StaticResource labelStyle}" />
+            <TextBox  Name="addressTxtbox"   Style="{StaticResource textboxStyle}" IsEnabled="false"></TextBox>
+            <Label></Label>
+            <Label></Label>
+            <Label Content="Contact No.  :"  Style="{StaticResource labelStyle}"/>
+            <TextBox  Name="contactNoTxtbox"  IsEnabled="false" Style="{StaticResource textboxStyle}"></TextBox>
+            <Label></Label>
+            <Label></Label>
+            <Label Content="Assigned Estimator  :"  Style="{StaticResource labelStyle}"/>
+            <TextBox  Name="assignedEstimatorTxtbox"  IsEnabled="false" Style="{StaticResource textboxStyle}"></TextBox>
+            <Label></Label>
+            <Label></Label>
+            <Label Content="Wire Length Required  :"  Style="{StaticResource labelStyle}"/>
+            <TextBox  Name="wireLengthRequiredTB"  IsEnabled="false"  Style="{StaticResource textboxStyle}"></TextBox>
+            <Label></Label>
+            <Label></Label>
+            <Label Content="Angle Type  :"  Style="{StaticResource labelStyle}"/>
+            <TextBox  Name="angleTypeTB"  IsEnabled="false"  Style="{StaticResource textboxStyle}"></TextBox>
+            <Label></Label>
+            <Label></Label>
+            <Label Content="Weight of Angle Calculation  :"  Style="{StaticResource labelStyle}"/>
+            <TextBox  Name="weightofAngleCalculationTB"  IsEnabled="false"  Style="{StaticResource textboxStyle}"></TextBox>
+            <Label></Label>
+            <Label></Label>
+            <Label Content="Quotation Amount  :"  Style="{StaticResource labelStyle}"/>
+            <TextBox  Name="quotationAmountTB"  IsEnabled="false"  Style="{StaticResource textboxStyle}"></TextBox>
+            <Label></Label>
+            <Label></Label>
+            <Label Content="Assigned Contractor  :"  Style="{StaticResource labelStyle}"/>
+            <ComboBox Name="assignedContractorCB" Style="{StaticResource CBStyleForName}" SelectedIndex="0" ItemsSource="{Binding contractorCollection}" DisplayMemberPath="name"  SelectedValuePath="id">
+            </ComboBox>
+            <Label></Label>
+            <Label></Label>
+            <Button Content="Cancel" Name="cancelBtn"  Style="{StaticResource smallControlBtnStyle}" Click="cancelBtn_Click"></Button>
+            <Button Content="Submit" Name="submitBtn" Style="{StaticResource smallControlBtnStyle}" Click="submitBtn_Click"></Button>
+            <Label></Label>
+        </UniformGrid>
+    </DockPanel>
+</Window>

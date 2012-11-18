@@ -1,0 +1,40 @@
+﻿<Window x:Class="ECMS.MainWindow"
+         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Electric Supply Customer Management System"  Left="10" Top="10" Background="Black" WindowState="Maximized" Loaded="Window_Loaded">
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/EscmsStyles;component/ControlStyle.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
+    <DockPanel Name="mainDocPanel" IsEnabled="False">
+        <Label DockPanel.Dock="Top" Content="Electric Supply Customer Management System " Style="{StaticResource bigLabelStyle}"></Label>
+        <UniformGrid DockPanel.Dock="Bottom" Rows="1" Height="100">
+            
+            <Button Content="Settings" ToolTip="Change Settings" Name="settingsBtn" Style="{StaticResource ControlBtnStyle}" Click="settingsBtn_Click" ></Button>
+            <Button Content="Credits" ToolTip="Credits" Name="creditBtn" Style="{StaticResource ControlBtnStyle}" Click="creditBtn_Click"></Button>
+            <Button Name="loginBtn" Content="Login" Click="loginBtn_Click"  Style="{StaticResource ControlBtnStyle}"></Button>
+            <Button Name="closeBtn" ToolTip="Close This Application" Click="closeBtn_Click"  Style="{StaticResource ControlBtnStyle}">Close</Button>
+        </UniformGrid>
+        <UniformGrid DockPanel.Dock="Left" Columns="1">
+          
+            <Button Content="Customer Browser" ToolTip="Customer Details" Name="customerBrowserBtn" Style="{StaticResource ControlBtnStyle}" Click="customerBrowserBtn_Click"  ></Button>
+            <Button Content="Payment" ToolTip="Payment Details" Name="paymentBtn" Style="{StaticResource ControlBtnStyle}" Click="paymentBtn_Click" ></Button>
+            <Button Content="New Connection" ToolTip="Apply For New Connection Details" Name="newConnectionBtn"  Click="newConnectionBtn_Click"  Style="{StaticResource ControlBtnStyle}"  ></Button>
+            <Button Content="Estimate and Quotation" ToolTip="Estimate and Quotation Details" Name="estimateBtn" Style="{StaticResource ControlBtnStyle}" Click="estimateBtn_Click" ></Button>
+            <Button Content="Work Order" ToolTip="Work Order Details" Style="{StaticResource ControlBtnStyle}" Name="workOrderBtn" Click="workOrderBtn_Click" ></Button>
+            
+        </UniformGrid>
+        <UniformGrid DockPanel.Dock="Right" Columns="1">     
+            
+            <Button Content="Contractor Bill" ToolTip="Contractor Bill Details" Name="contractorBillBtn" Style="{StaticResource ControlBtnStyle}"  Click="contractorBillBtn_Click"></Button>
+            <Button Content="Contractor Browser" ToolTip="Contractor Details" Name="contractorBrowserBtn" Style="{StaticResource ControlBtnStyle}" Click="contractorBrowserBtn_Click" ></Button>
+            <Button Content="Employee Browser" ToolTip="Employee Details" Name="employeeBrowserBtn" Style="{StaticResource ControlBtnStyle}" Click="employeeBrowserBtn_Click"  ></Button>
+            <Button Content="Report" ToolTip="View Report Details" Name="reportBtn" Style="{StaticResource ControlBtnStyle}"  Click="reportBtn_Click"></Button>
+            <Button Name="searchBtn" ToolTip="Search"  Style="{StaticResource ControlBtnStyle}"  Click="searchBtn_Click_1">Search</Button>
+        </UniformGrid>
+        <Image Source="/ECMS;component/Images/Light-Bulb.jpg" Width="Auto" Height="Auto" ></Image>
+    </DockPanel>
+</Window>
