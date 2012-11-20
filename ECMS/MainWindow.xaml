@@ -15,8 +15,8 @@
             
             <Button Content="Settings" ToolTip="Change Settings" Name="settingsBtn" Style="{StaticResource ControlBtnStyle}" Click="settingsBtn_Click" ></Button>
             <Button Content="Credits" ToolTip="Credits" Name="creditBtn" Style="{StaticResource ControlBtnStyle}" Click="creditBtn_Click"></Button>
-            <Button Name="loginBtn" Content="Login" Click="loginBtn_Click"  Style="{StaticResource ControlBtnStyle}"></Button>
-            <Button Name="closeBtn" ToolTip="Close This Application" Click="closeBtn_Click"  Style="{StaticResource ControlBtnStyle}">Close</Button>
+            <Button Name="loginBtn" Content="Log in" Click="loginBtn_Click"  Style="{StaticResource ControlBtnStyle}"></Button>
+            <Button Name="closeBtn" ToolTip="Close This Application" Click="closeBtn_Click"  Style="{StaticResource ControlBtnStyle}">Exit</Button>
         </UniformGrid>
         <UniformGrid DockPanel.Dock="Left" Columns="1">
           
