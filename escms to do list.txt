@@ -1,0 +1,4 @@
+things to do with ESCMS:
+ 
+1. Have to add a field to fetch contractor updates...which will be updated after a specific time intervals.
+2. Make a database regarding work order.
