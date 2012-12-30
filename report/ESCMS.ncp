@@ -1,0 +1,843 @@
+<Project>
+  <Name>ESCMS</Name>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>ECMS.exe</Name>
+    <Language>CSharp</Language>
+    <Entities>
+      <Entity type="Class">
+        <Name>WorkOrder</Name>
+        <Access>Public</Access>
+        <Location left="436" top="1654" />
+        <Size width="162" height="315" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private ObservableCollection&lt;estimateInfo&gt; _estimateCollection</Member>
+        <Member type="Field">internal Button viewWorkOrderBtn</Member>
+        <Member type="Field">internal Button addWorkOrderBtn</Member>
+        <Member type="Field">internal Button cancelBtn</Member>
+        <Member type="Field">internal ListView workOrderView</Member>
+        <Member type="Field">private Boolean _contentLoaded</Member>
+        <Member type="Property">public ObservableCollection&lt;estimateInfo&gt; estimateCollection { get; }</Member>
+        <Member type="Constructor">public WorkOrder()</Member>
+        <Member type="Method">private Void addWorkOrderBtn_Click(Object sender, RoutedEventArgs e)</Member>
+        <Member type="Method">private estimateInfo GetSelectedItem()</Member>
+        <Member type="Method">private Void cancelBtn_Click(Object sender, RoutedEventArgs e)</Member>
+        <Member type="Method">private Void viewWorkOrderBtn_Click(Object sender, RoutedEventArgs e)</Member>
+        <Member type="Method">public Void InitializeComponent()</Member>
+        <Member type="Method">Void System.Windows.Markup.IComponentConnector.Connect(Int32 connectionId, Object target)</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>AddContractor</Name>
+        <Access>Public</Access>
+        <Location left="224" top="1532" />
+        <Size width="162" height="349" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private String contractorId</Member>
+        <Member type="Field">private Boolean isEdit</Member>
+        <Member type="Field">internal Label contractorLbl</Member>
+        <Member type="Field">internal TextBox nameTxtbox</Member>
+        <Member type="Field">internal TextBox addressTxtbox</Member>
+        <Member type="Field">internal TextBox contactNoTxtbox</Member>
+        <Member type="Field">internal TextBox contractDetailsTxtbox</Member>
+        <Member type="Field">internal Button cancelBtn</Member>
+        <Member type="Field">internal Button submitBtn</Member>
+        <Member type="Field">private Boolean _contentLoaded</Member>
+        <Member type="Constructor">public AddContractor(ContractorInfo info)</Member>
+        <Member type="Method">private Void submitBtn_Click(Object sender, RoutedEventArgs e)</Member>
+        <Member type="Method">private String GenerateId()</Member>
+        <Member type="Method">private Void cancelBtn_Click(Object sender, RoutedEventArgs e)</Member>
+        <Member type="Method">public Void InitializeComponent()</Member>
+        <Member type="Method">Void System.Windows.Markup.IComponentConnector.Connect(Int32 connectionId, Object target)</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>MainWindow</Name>
+        <Access>Public</Access>
+        <Location left="12" top="1532" />
+        <Size width="162" height="706" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private login loginWindow</Member>
+        <Member type="Field">private Boolean LoggedIn</Member>
+        <Member type="Field">internal DockPanel mainDocPanel</Member>
+        <Member type="Field">internal Button settingsBtn</Member>
+        <Member type="Field">internal Button creditBtn</Member>
+        <Member type="Field">internal Button loginBtn</Member>
+        <Member type="Field">internal Button closeBtn</Member>
+        <Member type="Field">internal Button customerBrowserBtn</Member>
+        <Member type="Field">internal Button paymentBtn</Member>
+        <Member type="Field">internal Button newConnectionBtn</Member>
+        <Member type="Field">internal Button estimateBtn</Member>
+        <Member type="Field">internal Button workOrderBtn</Member>
+        <Member type="Field">internal Button contractorBillBtn</Member>
+        <Member type="Field">internal Button contractorBrowserBtn</Member>
+        <Member type="Field">internal Button employeeBrowserBtn</Member>
+        <Member type="Field">internal Button reportBtn</Member>
+        <Member type="Field">internal Button searchBtn</Member>
+        <Member type="Field">private Boolean _contentLoaded</Member>
+        <Member type="Constructor">public MainWindow()</Member>
+        <Member type="Method">private Void loginBtn_Click(Object sender, RoutedEventArgs e)</Member>
+        <Member type="Method">private Void LoginWindowObj_OnSucccesfulLogin(Boolean IsSuccess)</Member>
+        <Member type="Method">private Void paymentBtn_Click(Object sender, RoutedEventArgs e)</Member>
+        <Member type="Method">private Void closeBtn_Click(Object sender, RoutedEventArgs e)</Member>
+        <Member type="Method">private Void newConnectionBtn_Click(Object sender, RoutedEventArgs e)</Member>
+        <Member type="Method">private Void employeeBrowserBtn_Click(Object sender, RoutedEventArgs e)</Member>
+        <Member type="Method">private Void contractorBrowserBtn_Click(Object sender, RoutedEventArgs e)</Member>
+        <Member type="Method">private Void estimateBtn_Click(Object sender, RoutedEventArgs e)</Member>
+        <Member type="Method">private Void customerBrowserBtn_Click(Object sender, RoutedEventArgs e)</Member>
+        <Member type="Method">private Void workOrderBtn_Click(Object sender, RoutedEventArgs e)</Member>
+        <Member type="Method">private Void settingsBtn_Click(Object sender, RoutedEventArgs e)</Member>
+        <Member type="Method">private Void searchBtn_Click_1(Object sender, RoutedEventArgs e)</Member>
+        <Member type="Method">private Void contractorBillBtn_Click(Object sender, RoutedEventArgs e)</Member>
+        <Member type="Method">private Void reportBtn_Click(Object sender, RoutedEventArgs e)</Member>
+        <Member type="Method">private Void Window_Loaded(Object sender, RoutedEventArgs e)</Member>
+        <Member type="Method">private Void creditBtn_Click(Object sender, RoutedEventArgs e)</Member>
+        <Member type="Method">public Void InitializeComponent()</Member>
+        <Member type="Method">Void System.Windows.Markup.IComponentConnector.Connect(Int32 connectionId, Object target)</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Report</Name>
+        <Access>Public</Access>
+        <Location left="436" top="1990" />
+        <Size width="162" height="247" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">internal DatePicker reportFromDatePicker</Member>
+        <Member type="Field">internal DatePicker reportToDatePicker</Member>
+        <Member type="Field">internal Button deleteEmployeeBtn</Member>
+        <Member type="Field">internal Button cancelBtn</Member>
+        <Member type="Field">internal ListView workOrderView</Member>
+        <Member type="Field">private Boolean _contentLoaded</Member>
+        <Member type="Constructor">public Report()</Member>
+        <Member type="Method">private Void cancelBtn_Click(Object sender, RoutedEventArgs e)</Member>
+        <Member type="Method">public Void InitializeComponent()</Member>
+        <Member type="Method">Void System.Windows.Markup.IComponentConnector.Connect(Int32 connectionId, Object target)</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Credits</Name>
+        <Access>Public</Access>
+        <Location left="632" top="2020" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private Boolean _contentLoaded</Member>
+        <Member type="Constructor">public Credits()</Member>
+        <Member type="Method">public Void InitializeComponent()</Member>
+        <Member type="Method">Void System.Windows.Markup.IComponentConnector.Connect(Int32 connectionId, Object target)</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>AddCustomer</Name>
+        <Access>Public</Access>
+        <Location left="224" top="1906" />
+        <Size width="162" height="332" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private String customerId</Member>
+        <Member type="Field">private Boolean isEdit</Member>
+        <Member type="Field">internal TextBox nameTxtbox</Member>
+        <Member type="Field">internal TextBox addressTxtbox</Member>
+        <Member type="Field">internal TextBox contactNoTxtbox</Member>
+        <Member type="Field">internal Button cancelBtn</Member>
+        <Member type="Field">internal Button submitBtn</Member>
+        <Member type="Field">private Boolean _contentLoaded</Member>
+        <Member type="Constructor">public AddCustomer(CustomerInfo info)</Member>
+        <Member type="Method">private Void OK_Btn_Click(Object sender, RoutedEventArgs e)</Member>
+        <Member type="Method">private Void submitBtn_Click(Object sender, RoutedEventArgs e)</Member>
+        <Member type="Method">private String GenerateId()</Member>
+        <Member type="Method">private Void cancelBtn_Click(Object sender, RoutedEventArgs e)</Member>
+        <Member type="Method">public Void InitializeComponent()</Member>
+        <Member type="Method">Void System.Windows.Markup.IComponentConnector.Connect(Int32 connectionId, Object target)</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Contractor</Name>
+        <Access>Public</Access>
+        <Location left="632" top="1600" />
+        <Size width="162" height="383" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private ObservableCollection&lt;ContractorInfo&gt; _contractorCollection</Member>
+        <Member type="Field">internal Button viewContractorBtn</Member>
+        <Member type="Field">internal Button addContractorBtn</Member>
+        <Member type="Field">internal Button editContractorBtn</Member>
+        <Member type="Field">internal Button deleteContractorBtn</Member>
+        <Member type="Field">internal Button cancelBtn</Member>
+        <Member type="Field">internal ListView contractorView</Member>
+        <Member type="Field">private Boolean _contentLoaded</Member>
+        <Member type="Property">public ObservableCollection&lt;ContractorInfo&gt; contractorCollection { get; }</Member>
+        <Member type="Constructor">public Contractor()</Member>
+        <Member type="Method">private Void addContractorBtn_Click(Object sender, RoutedEventArgs e)</Member>
+        <Member type="Method">private Void viewContractorBtn_Click(Object sender, RoutedEventArgs e)</Member>
+        <Member type="Method">private Void deleteContractorBtn_Click(Object sender, RoutedEventArgs e)</Member>
+        <Member type="Method">private ContractorInfo GetSelectedItem()</Member>
+        <Member type="Method">private Void cancelBtn_Click(Object sender, RoutedEventArgs e)</Member>
+        <Member type="Method">private Void editContractorBtn_Click(Object sender, RoutedEventArgs e)</Member>
+        <Member type="Method">public Void InitializeComponent()</Member>
+        <Member type="Method">Void System.Windows.Markup.IComponentConnector.Connect(Int32 connectionId, Object target)</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>AddEstimator</Name>
+        <Access>Public</Access>
+        <Location left="436" top="1288" />
+        <Size width="162" height="349" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private ObservableCollection&lt;EmployeeInfo&gt; _estimatorCollection</Member>
+        <Member type="Field">internal TextBox applicationNoTB</Member>
+        <Member type="Field">internal TextBox nameTxtbox</Member>
+        <Member type="Field">internal TextBox addressTxtbox</Member>
+        <Member type="Field">internal TextBox contactNoTxtbox</Member>
+        <Member type="Field">internal ComboBox assignedEstimatorCB</Member>
+        <Member type="Field">internal Button cancelBtn</Member>
+        <Member type="Field">internal Button submitBtn</Member>
+        <Member type="Field">private Boolean _contentLoaded</Member>
+        <Member type="Property">public ObservableCollection&lt;EmployeeInfo&gt; estimatorCollection { get; }</Member>
+        <Member type="Constructor">public AddEstimator(estimateInfo info)</Member>
+        <Member type="Method">private Void cancelBtn_Click(Object sender, RoutedEventArgs e)</Member>
+        <Member type="Method">private Void Window_Loaded(Object sender, RoutedEventArgs e)</Member>
+        <Member type="Method">private Void submitBtn_Click(Object sender, RoutedEventArgs e)</Member>
+        <Member type="Method">public Void InitializeComponent()</Member>
+        <Member type="Method">Void System.Windows.Markup.IComponentConnector.Connect(Int32 connectionId, Object target)</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Search</Name>
+        <Access>Public</Access>
+        <Location left="436" top="1021" />
+        <Size width="162" height="247" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">internal TextBox customerNameTxtbox</Member>
+        <Member type="Field">internal TextBox customerIDTxtbox</Member>
+        <Member type="Field">internal TextBox applicationIDTxtbox</Member>
+        <Member type="Field">internal Button searchBtn</Member>
+        <Member type="Field">internal Button cancelBtn</Member>
+        <Member type="Field">private Boolean _contentLoaded</Member>
+        <Member type="Constructor">public Search()</Member>
+        <Member type="Method">private Void cancelBtn_Click(Object sender, RoutedEventArgs e)</Member>
+        <Member type="Method">public Void InitializeComponent()</Member>
+        <Member type="Method">Void System.Windows.Markup.IComponentConnector.Connect(Int32 connectionId, Object target)</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>AddEmployee</Name>
+        <Access>Public</Access>
+        <Location left="224" top="1099" />
+        <Size width="162" height="383" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private String employeeId</Member>
+        <Member type="Field">private Boolean isEdit</Member>
+        <Member type="Field">internal Label employeeLbl</Member>
+        <Member type="Field">internal TextBox nameTxtbox</Member>
+        <Member type="Field">internal TextBox addressTxtbox</Member>
+        <Member type="Field">internal TextBox contactNoTxtbox</Member>
+        <Member type="Field">internal ComboBox typeComboBox</Member>
+        <Member type="Field">internal DatePicker dateOfjoiningDateDatePicker</Member>
+        <Member type="Field">internal ComboBox depertmentCB</Member>
+        <Member type="Field">internal Button cancelBtn</Member>
+        <Member type="Field">internal Button submitBtn</Member>
+        <Member type="Field">private Boolean _contentLoaded</Member>
+        <Member type="Constructor">public AddEmployee(EmployeeInfo info)</Member>
+        <Member type="Method">private Void submitBtn_Click(Object sender, RoutedEventArgs e)</Member>
+        <Member type="Method">private String GenerateId()</Member>
+        <Member type="Method">private Void cancleBtn_Click(Object sender, RoutedEventArgs e)</Member>
+        <Member type="Method">public Void InitializeComponent()</Member>
+        <Member type="Method">Void System.Windows.Markup.IComponentConnector.Connect(Int32 connectionId, Object target)</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Connection</Name>
+        <Access>Public</Access>
+        <Location left="12" top="1099" />
+        <Size width="162" height="383" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private ObservableCollection&lt;NewConnectionInfo&gt; _newConnectionCollection</Member>
+        <Member type="Field">internal Button viewConnectionBtn</Member>
+        <Member type="Field">internal Button addNewConnectionBtn</Member>
+        <Member type="Field">internal Button editConnectionBtn</Member>
+        <Member type="Field">internal Button deleteConnectionBtn</Member>
+        <Member type="Field">internal Button cancelBtn</Member>
+        <Member type="Field">internal ListView newConnectionView</Member>
+        <Member type="Field">private Boolean _contentLoaded</Member>
+        <Member type="Property">public ObservableCollection&lt;NewConnectionInfo&gt; newConnectionCollection { get; }</Member>
+        <Member type="Constructor">public Connection()</Member>
+        <Member type="Method">private Void addNewConnectionBtn_Click(Object sender, RoutedEventArgs e)</Member>
+        <Member type="Method">private Void cancelBtn_Click(Object sender, RoutedEventArgs e)</Member>
+        <Member type="Method">private Void viewConnectionBtn_Click(Object sender, RoutedEventArgs e)</Member>
+        <Member type="Method">private Void deleteConnectionBtn_Click(Object sender, RoutedEventArgs e)</Member>
+        <Member type="Method">private NewConnectionInfo GetSelectedItem()</Member>
+        <Member type="Method">private Void editConnectionBtn_Click(Object sender, RoutedEventArgs e)</Member>
+        <Member type="Method">public Void InitializeComponent()</Member>
+        <Member type="Method">Void System.Windows.Markup.IComponentConnector.Connect(Int32 connectionId, Object target)</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Settings</Name>
+        <Access>Public</Access>
+        <Location left="860" top="1374" />
+        <Size width="162" height="332" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">internal TextBox supplyStationNameTxtbox</Member>
+        <Member type="Field">internal TextBox supplyStationAddressTxtbox</Member>
+        <Member type="Field">internal TextBox contactNoTxtbox</Member>
+        <Member type="Field">internal TextBox tollFreeNoTxtbox</Member>
+        <Member type="Field">internal Button saveChangesBtn</Member>
+        <Member type="Field">internal Button changePasswordBtn</Member>
+        <Member type="Field">internal Button loadExistingSettingsBtn</Member>
+        <Member type="Field">internal Button cancelBtn</Member>
+        <Member type="Field">private Boolean _contentLoaded</Member>
+        <Member type="Constructor">public Settings()</Member>
+        <Member type="Method">private Void changePasswordBtn_Click(Object sender, RoutedEventArgs e)</Member>
+        <Member type="Method">private Void cancelBtn_Click(Object sender, RoutedEventArgs e)</Member>
+        <Member type="Method">private Void saveChangesBtn_Click(Object sender, RoutedEventArgs e)</Member>
+        <Member type="Method">public Void InitializeComponent()</Member>
+        <Member type="Method">Void System.Windows.Markup.IComponentConnector.Connect(Int32 connectionId, Object target)</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>EstimationQuotationDisplay</Name>
+        <Access>Public</Access>
+        <Location left="860" top="564" />
+        <Size width="162" height="349" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private ObservableCollection&lt;estimateInfo&gt; _estimateCollection</Member>
+        <Member type="Field">internal Button viewEstimateBtn</Member>
+        <Member type="Field">internal Button editBtn</Member>
+        <Member type="Field">internal Button addPaymentBtn</Member>
+        <Member type="Field">internal Button cancelBtn</Member>
+        <Member type="Field">internal ListView estimateView</Member>
+        <Member type="Field">private Boolean _contentLoaded</Member>
+        <Member type="Property">public ObservableCollection&lt;estimateInfo&gt; estimateCollection { get; }</Member>
+        <Member type="Constructor">public EstimationQuotationDisplay()</Member>
+        <Member type="Method">private Void addPaymentBtn_Click(Object sender, RoutedEventArgs e)</Member>
+        <Member type="Method">public estimateInfo GetSelectedItem()</Member>
+        <Member type="Method">private Void cancelBtn_Click(Object sender, RoutedEventArgs e)</Member>
+        <Member type="Method">private Void viewEstimateBtn_Click(Object sender, RoutedEventArgs e)</Member>
+        <Member type="Method">private Void editBtn_Click(Object sender, RoutedEventArgs e)</Member>
+        <Member type="Method">public Void InitializeComponent()</Member>
+        <Member type="Method">Void System.Windows.Markup.IComponentConnector.Connect(Int32 connectionId, Object target)</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>AddBill</Name>
+        <Access>Public</Access>
+        <Location left="632" top="783" />
+        <Size width="162" height="366" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">internal TextBox applicationNoTB</Member>
+        <Member type="Field">internal TextBox nameTxtbox</Member>
+        <Member type="Field">internal TextBox addressTxtbox</Member>
+        <Member type="Field">internal TextBox contactNoTxtbox</Member>
+        <Member type="Field">internal TextBox contractorTxtbox</Member>
+        <Member type="Field">internal TextBox wireLengthRequiredTB</Member>
+        <Member type="Field">internal ComboBox angleTypeCB</Member>
+        <Member type="Field">internal TextBox weightofAngleCalculationTB</Member>
+        <Member type="Field">internal TextBox quotationAmountTB</Member>
+        <Member type="Field">internal TextBox totalAmountTB</Member>
+        <Member type="Field">internal Button cancelBtn</Member>
+        <Member type="Field">internal Button submitBtn</Member>
+        <Member type="Field">private Boolean _contentLoaded</Member>
+        <Member type="Constructor">public AddBill()</Member>
+        <Member type="Method">private Void cancelBtn_Click(Object sender, RoutedEventArgs e)</Member>
+        <Member type="Method">public Void InitializeComponent()</Member>
+        <Member type="Method">Void System.Windows.Markup.IComponentConnector.Connect(Int32 connectionId, Object target)</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Employee</Name>
+        <Access>Public</Access>
+        <Location left="632" top="1190" />
+        <Size width="162" height="383" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private ObservableCollection&lt;EmployeeInfo&gt; _employeeCollection</Member>
+        <Member type="Field">internal Button cancelBtn</Member>
+        <Member type="Field">internal Button viewEmployeeBtn</Member>
+        <Member type="Field">internal Button addEmployeeBtn</Member>
+        <Member type="Field">internal Button editEmployeeBtn</Member>
+        <Member type="Field">internal Button deleteEmployeeBtn</Member>
+        <Member type="Field">internal ListView employeeView</Member>
+        <Member type="Field">private Boolean _contentLoaded</Member>
+        <Member type="Property">public ObservableCollection&lt;EmployeeInfo&gt; employeeCollection { get; }</Member>
+        <Member type="Constructor">public Employee()</Member>
+        <Member type="Method">private Void addEmployeeBtn_Click(Object sender, RoutedEventArgs e)</Member>
+        <Member type="Method">private Void viewEmployeeBtn_Click(Object sender, RoutedEventArgs e)</Member>
+        <Member type="Method">private Void deleteEmployeeBtn_Click(Object sender, RoutedEventArgs e)</Member>
+        <Member type="Method">private EmployeeInfo GetSelectedItem()</Member>
+        <Member type="Method">private Void editEmployeeBtn_Click(Object sender, RoutedEventArgs e)</Member>
+        <Member type="Method">private Void cancelBtn_Click(Object sender, RoutedEventArgs e)</Member>
+        <Member type="Method">public Void InitializeComponent()</Member>
+        <Member type="Method">Void System.Windows.Markup.IComponentConnector.Connect(Int32 connectionId, Object target)</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>ChangePassword</Name>
+        <Access>Public</Access>
+        <Location left="632" top="486" />
+        <Size width="162" height="247" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">internal PasswordBox currentPasswordTxtbox</Member>
+        <Member type="Field">internal PasswordBox newPasswordTxtbox</Member>
+        <Member type="Field">internal PasswordBox retypeNewPasswordTxtbox</Member>
+        <Member type="Field">internal Button updatePasswordBtn</Member>
+        <Member type="Field">internal Button cancelBtn</Member>
+        <Member type="Field">private Boolean _contentLoaded</Member>
+        <Member type="Constructor">public ChangePassword()</Member>
+        <Member type="Method">private Void cancelBtn_Click(Object sender, RoutedEventArgs e)</Member>
+        <Member type="Method">public Void InitializeComponent()</Member>
+        <Member type="Method">Void System.Windows.Markup.IComponentConnector.Connect(Int32 connectionId, Object target)</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>AddQuotation</Name>
+        <Access>Public</Access>
+        <Location left="436" top="511" />
+        <Size width="162" height="485" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private String estimateQuotationId</Member>
+        <Member type="Field">private Boolean isEdit</Member>
+        <Member type="Field">private ObservableCollection&lt;EmployeeInfo&gt; _estimatorCollection</Member>
+        <Member type="Field">private ObservableCollection&lt;NewConnectionInfo&gt; _newConnectionCollection</Member>
+        <Member type="Field">internal TextBox applicationNoTB</Member>
+        <Member type="Field">internal TextBox nameTxtbox</Member>
+        <Member type="Field">internal TextBox addressTxtbox</Member>
+        <Member type="Field">internal TextBox contactNoTxtbox</Member>
+        <Member type="Field">internal ComboBox assignedEstimatorCB</Member>
+        <Member type="Field">internal TextBox wireLengthRequiredTB</Member>
+        <Member type="Field">internal ComboBox angleTypeCB</Member>
+        <Member type="Field">internal TextBox weightofAngleCalculationTB</Member>
+        <Member type="Field">internal TextBox quotationAmountTB</Member>
+        <Member type="Field">internal Button cancelBtn</Member>
+        <Member type="Field">internal Button submitBtn</Member>
+        <Member type="Field">private Boolean _contentLoaded</Member>
+        <Member type="Property">public ObservableCollection&lt;EmployeeInfo&gt; estimatorCollection { get; }</Member>
+        <Member type="Property">public ObservableCollection&lt;NewConnectionInfo&gt; newConnectionCollection { get; }</Member>
+        <Member type="Constructor">public AddQuotation(estimateInfo info)</Member>
+        <Member type="Method">private Void cancelBtn_Click(Object sender, RoutedEventArgs e)</Member>
+        <Member type="Method">private Void submitBtn_Click(Object sender, RoutedEventArgs e)</Member>
+        <Member type="Method">private Void Window_Loaded(Object sender, RoutedEventArgs e)</Member>
+        <Member type="Method">public Void InitializeComponent()</Member>
+        <Member type="Method">Void System.Windows.Markup.IComponentConnector.Connect(Int32 connectionId, Object target)</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>ContractorBill</Name>
+        <Access>Public</Access>
+        <Location left="224" top="564" />
+        <Size width="162" height="485" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">internal Button cancelBillBtn</Member>
+        <Member type="Field">internal Button printBillBtn</Member>
+        <Member type="Field">internal Button completeBillBtn</Member>
+        <Member type="Field">internal DockPanel printableBillAreaDockPanel</Member>
+        <Member type="Field">internal DatePicker purchaseDatePicker</Member>
+        <Member type="Field">internal Button contractorBtn</Member>
+        <Member type="Field">internal ComboBox contractorCB</Member>
+        <Member type="Field">internal TextBox invoiceNumberTB</Member>
+        <Member type="Field">internal Button addItemBtn</Member>
+        <Member type="Field">internal Button deleteItemBtn</Member>
+        <Member type="Field">internal Label declarationLabel</Member>
+        <Member type="Field">internal Label priceInWordLabel</Member>
+        <Member type="Field">internal Button salesCalculateTotalBtn</Member>
+        <Member type="Field">internal Label salesTotalNoOfItems</Member>
+        <Member type="Field">internal Label itemUnit</Member>
+        <Member type="Field">internal Label salesTotalAmountLabel</Member>
+        <Member type="Field">internal ListView salesBillingItemListView</Member>
+        <Member type="Field">private Boolean _contentLoaded</Member>
+        <Member type="Constructor">public ContractorBill()</Member>
+        <Member type="Method">private Void cancelBtn_Click(Object sender, RoutedEventArgs e)</Member>
+        <Member type="Method">private Void addBillBtn_Click(Object sender, RoutedEventArgs e)</Member>
+        <Member type="Method">private Void completeBillBtn_Click(Object sender, RoutedEventArgs e)</Member>
+        <Member type="Method">public Void InitializeComponent()</Member>
+        <Member type="Method">Void System.Windows.Markup.IComponentConnector.Connect(Int32 connectionId, Object target)</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>App</Name>
+        <Access>Public</Access>
+        <Location left="12" top="564" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private Boolean _contentLoaded</Member>
+        <Member type="Constructor">public App()</Member>
+        <Member type="Method">public Void InitializeComponent()</Member>
+        <Member type="Method">public static Void Main()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>AddPayment</Name>
+        <Access>Public</Access>
+        <Location left="436" top="36" />
+        <Size width="162" height="417" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private String paymentId</Member>
+        <Member type="Field">private Boolean isEdit</Member>
+        <Member type="Field">private ObservableCollection&lt;CustomerInfo&gt; _customerCollection</Member>
+        <Member type="Field">internal Label paymentIdLbl</Member>
+        <Member type="Field">internal ComboBox nameTxtbox</Member>
+        <Member type="Field">internal Button addCustomerBtn</Member>
+        <Member type="Field">internal TextBox amountTxtbox</Member>
+        <Member type="Field">internal DatePicker dopDatePicker</Member>
+        <Member type="Field">internal Button cancelBtn</Member>
+        <Member type="Field">internal Button submitBtn</Member>
+        <Member type="Field">private Boolean _contentLoaded</Member>
+        <Member type="Property">public ObservableCollection&lt;CustomerInfo&gt; customerCollection { get; }</Member>
+        <Member type="Constructor">public AddPayment(PaymentInfo info)</Member>
+        <Member type="Method">private Void cancelBtn_Click(Object sender, RoutedEventArgs e)</Member>
+        <Member type="Method">private Void submitBtn_Click(Object sender, RoutedEventArgs e)</Member>
+        <Member type="Method">private String GenerateId()</Member>
+        <Member type="Method">private Void addCustomerBtn_Click(Object sender, RoutedEventArgs e)</Member>
+        <Member type="Method">private Void Window_Loaded(Object sender, RoutedEventArgs e)</Member>
+        <Member type="Method">public Void InitializeComponent()</Member>
+        <Member type="Method">Void System.Windows.Markup.IComponentConnector.Connect(Int32 connectionId, Object target)</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Customer</Name>
+        <Access>Public</Access>
+        <Location left="632" top="36" />
+        <Size width="162" height="383" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private ObservableCollection&lt;CustomerInfo&gt; _customerCollection</Member>
+        <Member type="Field">internal Button viewCustomerBtn</Member>
+        <Member type="Field">internal Button addCustomerBtn</Member>
+        <Member type="Field">internal Button editCustomerBtn</Member>
+        <Member type="Field">internal Button deleteCustomerBtn</Member>
+        <Member type="Field">internal Button cancelBtn</Member>
+        <Member type="Field">internal ListView customerView</Member>
+        <Member type="Field">private Boolean _contentLoaded</Member>
+        <Member type="Property">public ObservableCollection&lt;CustomerInfo&gt; customerCollection { get; }</Member>
+        <Member type="Constructor">public Customer()</Member>
+        <Member type="Method">private Void cancelBtn_Click(Object sender, RoutedEventArgs e)</Member>
+        <Member type="Method">private Void addCustomerBtn_Click(Object sender, RoutedEventArgs e)</Member>
+        <Member type="Method">private Void viewCustomerBtn_Click(Object sender, RoutedEventArgs e)</Member>
+        <Member type="Method">private Void deleteCustomerBtn_Click(Object sender, RoutedEventArgs e)</Member>
+        <Member type="Method">private CustomerInfo GetSelectedItem()</Member>
+        <Member type="Method">private Void editCustomerBtn_Click(Object sender, RoutedEventArgs e)</Member>
+        <Member type="Method">public Void InitializeComponent()</Member>
+        <Member type="Method">Void System.Windows.Markup.IComponentConnector.Connect(Int32 connectionId, Object target)</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Payment</Name>
+        <Access>Public</Access>
+        <Location left="860" top="950" />
+        <Size width="162" height="383" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private ObservableCollection&lt;PaymentInfo&gt; _paymentCollection</Member>
+        <Member type="Field">internal Button viewConnectionBtn</Member>
+        <Member type="Field">internal Button addPaymentBtn</Member>
+        <Member type="Field">internal Button editConnectionBtn</Member>
+        <Member type="Field">internal Button deleteConnectionBtn</Member>
+        <Member type="Field">internal Button cancelBtn</Member>
+        <Member type="Field">internal ListView paymentView</Member>
+        <Member type="Field">private Boolean _contentLoaded</Member>
+        <Member type="Property">public ObservableCollection&lt;PaymentInfo&gt; paymentCollection { get; }</Member>
+        <Member type="Constructor">public Payment()</Member>
+        <Member type="Method">private Void cancelBtn_Click(Object sender, RoutedEventArgs e)</Member>
+        <Member type="Method">private Void addPaymentBtn_Click(Object sender, RoutedEventArgs e)</Member>
+        <Member type="Method">private Void viewConnectionBtn_Click(Object sender, RoutedEventArgs e)</Member>
+        <Member type="Method">private Void deleteConnectionBtn_Click(Object sender, RoutedEventArgs e)</Member>
+        <Member type="Method">private PaymentInfo GetSelectedItem()</Member>
+        <Member type="Method">private Void editConnectionBtn_Click(Object sender, RoutedEventArgs e)</Member>
+        <Member type="Method">public Void InitializeComponent()</Member>
+        <Member type="Method">Void System.Windows.Markup.IComponentConnector.Connect(Int32 connectionId, Object target)</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>newapplication</Name>
+        <Access>Public</Access>
+        <Location left="860" top="12" />
+        <Size width="162" height="502" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private String newConnectionId</Member>
+        <Member type="Field">private Boolean isEdit</Member>
+        <Member type="Field">private ObservableCollection&lt;PaymentInfo&gt; _paymentInfoCollection</Member>
+        <Member type="Field">internal ComboBox paymentIDTxtbox</Member>
+        <Member type="Field">internal Label nameTxtbox</Member>
+        <Member type="Field">internal Label customerIdlabel</Member>
+        <Member type="Field">internal Label addressTxtbox</Member>
+        <Member type="Field">internal Label contactNoTxtbox</Member>
+        <Member type="Field">internal Label initialDepositAmountTxtbox</Member>
+        <Member type="Field">internal DatePicker amountReceivedOnDatePicker</Member>
+        <Member type="Field">internal DatePicker applicationReceivedDateDatePicker</Member>
+        <Member type="Field">internal Button cancelBtn</Member>
+        <Member type="Field">internal Button submitBtn</Member>
+        <Member type="Field">private Boolean _contentLoaded</Member>
+        <Member type="Property">public ObservableCollection&lt;PaymentInfo&gt; paymentInfoCollection { get; }</Member>
+        <Member type="Constructor">public newapplication(NewConnectionInfo info)</Member>
+        <Member type="Method">private Void submitBtn_Click(Object sender, RoutedEventArgs e)</Member>
+        <Member type="Method">private String GenerateId()</Member>
+        <Member type="Method">private String serviceConnectionNo()</Member>
+        <Member type="Method">private Void cancelBtn_Click(Object sender, RoutedEventArgs e)</Member>
+        <Member type="Method">private String PopulatePaymentComboboxItems()</Member>
+        <Member type="Method">private Void paymentIDTxtbox_SelectionChanged(Object sender, SelectionChangedEventArgs e)</Member>
+        <Member type="Method">private Void PopulateItemsFromPaymentId(String payId)</Member>
+        <Member type="Method">public Void InitializeComponent()</Member>
+        <Member type="Method">Void System.Windows.Markup.IComponentConnector.Connect(Int32 connectionId, Object target)</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>FirstLoginWindow</Name>
+        <Access>Public</Access>
+        <Location left="12" top="252" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">internal Button loginBtn</Member>
+        <Member type="Field">private Boolean _contentLoaded</Member>
+        <Member type="Constructor">public FirstLoginWindow()</Member>
+        <Member type="Method">public Void InitializeComponent()</Member>
+        <Member type="Method">Void System.Windows.Markup.IComponentConnector.Connect(Int32 connectionId, Object target)</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>login</Name>
+        <Access>Public</Access>
+        <Location left="224" top="25" />
+        <Size width="162" height="281" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">internal ComboBox userTypeCB</Member>
+        <Member type="Field">internal TextBox userNameTxtbox</Member>
+        <Member type="Field">internal PasswordBox passwordPbox</Member>
+        <Member type="Field">internal Button cancelBtn</Member>
+        <Member type="Field">internal Button loginBtn</Member>
+        <Member type="Field">private Boolean _contentLoaded</Member>
+        <Member type="Event">public event delegateOnSucccesfulLogin OnSucccesfulLogin</Member>
+        <Member type="Constructor">public login()</Member>
+        <Member type="Method">private Void cancelBtn_Click(Object sender, RoutedEventArgs e)</Member>
+        <Member type="Method">private Void loginBtn_Click(Object sender, RoutedEventArgs e)</Member>
+        <Member type="Method">public Void InitializeComponent()</Member>
+        <Member type="Method">Void System.Windows.Markup.IComponentConnector.Connect(Int32 connectionId, Object target)</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>AssignContractor</Name>
+        <Access>Public</Access>
+        <Location left="860" top="1805" />
+        <Size width="162" height="434" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private ObservableCollection&lt;ContractorInfo&gt; _contractorCollection</Member>
+        <Member type="Field">internal TextBox applicationNoTB</Member>
+        <Member type="Field">internal TextBox nameTxtbox</Member>
+        <Member type="Field">internal TextBox addressTxtbox</Member>
+        <Member type="Field">internal TextBox contactNoTxtbox</Member>
+        <Member type="Field">internal TextBox assignedEstimatorTxtbox</Member>
+        <Member type="Field">internal TextBox wireLengthRequiredTB</Member>
+        <Member type="Field">internal TextBox angleTypeTB</Member>
+        <Member type="Field">internal TextBox weightofAngleCalculationTB</Member>
+        <Member type="Field">internal TextBox quotationAmountTB</Member>
+        <Member type="Field">internal ComboBox assignedContractorCB</Member>
+        <Member type="Field">internal Button cancelBtn</Member>
+        <Member type="Field">internal Button submitBtn</Member>
+        <Member type="Field">private Boolean _contentLoaded</Member>
+        <Member type="Property">public ObservableCollection&lt;ContractorInfo&gt; contractorCollection { get; }</Member>
+        <Member type="Constructor">public AssignContractor(estimateInfo info)</Member>
+        <Member type="Method">private Void cancelBtn_Click(Object sender, RoutedEventArgs e)</Member>
+        <Member type="Method">private Void Window_Loaded(Object sender, RoutedEventArgs e)</Member>
+        <Member type="Method">private Void submitBtn_Click(Object sender, RoutedEventArgs e)</Member>
+        <Member type="Method">public Void InitializeComponent()</Member>
+        <Member type="Method">Void System.Windows.Markup.IComponentConnector.Connect(Int32 connectionId, Object target)</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Delegate">
+        <Name>delegateOnSucccesfulLogin</Name>
+        <Access>Public</Access>
+        <Location left="12" top="12" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <ReturnType>Void</ReturnType>
+        <Param>Boolean IsSuccess</Param>
+      </Entity>
+    </Entities>
+    <Relationships>
+      <Relationship type="Nesting" first="24" second="26">
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+      </Relationship>
+      <Relationship type="Association" first="2" second="24">
+        <Label>
+        </Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+        <StartRole>loginWindow</StartRole>
+        <EndMultiplicity>1</EndMultiplicity>
+      </Relationship>
+    </Relationships>
+  </ProjectItem>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>ESCMS Data.dll</Name>
+    <Language>CSharp</Language>
+    <Entities>
+      <Entity type="Class">
+        <Name>PaymentInfo</Name>
+        <Access>Public</Access>
+        <Location left="239" top="629" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Property">public String id { get; set; }</Member>
+        <Member type="Property">public String name { get; set; }</Member>
+        <Member type="Property">public String customerId { get; set; }</Member>
+        <Member type="Property">public Double amount { get; set; }</Member>
+        <Member type="Property">public DateTime dop { get; set; }</Member>
+        <Member type="Constructor">public PaymentInfo()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>ContractorInfo</Name>
+        <Access>Public</Access>
+        <Location left="466" top="629" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Property">public String id { get; set; }</Member>
+        <Member type="Property">public String name { get; set; }</Member>
+        <Member type="Property">public String address { get; set; }</Member>
+        <Member type="Property">public String contact { get; set; }</Member>
+        <Member type="Property">public String details { get; set; }</Member>
+        <Member type="Constructor">public ContractorInfo()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>CustomerInfo</Name>
+        <Access>Public</Access>
+        <Location left="224" top="299" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Property">public String id { get; set; }</Member>
+        <Member type="Property">public String name { get; set; }</Member>
+        <Member type="Property">public String address { get; set; }</Member>
+        <Member type="Property">public String contact { get; set; }</Member>
+        <Member type="Constructor">public CustomerInfo()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>EmployeeInfo</Name>
+        <Access>Public</Access>
+        <Location left="12" top="299" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Property">public String id { get; set; }</Member>
+        <Member type="Property">public String name { get; set; }</Member>
+        <Member type="Property">public String address { get; set; }</Member>
+        <Member type="Property">public String contact { get; set; }</Member>
+        <Member type="Property">public PostType postType { get; set; }</Member>
+        <Member type="Property">public DateTime doj { get; set; }</Member>
+        <Member type="Property">public String department { get; set; }</Member>
+        <Member type="Constructor">public EmployeeInfo()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>estimateInfo</Name>
+        <Access>Public</Access>
+        <Location left="12" top="569" />
+        <Size width="162" height="281" />
+        <Collapsed>False</Collapsed>
+        <Member type="Property">public String appsNo { get; set; }</Member>
+        <Member type="Property">public String name { get; set; }</Member>
+        <Member type="Property">public String address { get; set; }</Member>
+        <Member type="Property">public String contact { get; set; }</Member>
+        <Member type="Property">public String estimator { get; set; }</Member>
+        <Member type="Property">public Double initialAmount { get; set; }</Member>
+        <Member type="Property">public Double wireLength { get; set; }</Member>
+        <Member type="Property">public Double angleWeight { get; set; }</Member>
+        <Member type="Property">public AngleType angleType { get; set; }</Member>
+        <Member type="Property">public Double quotationAmount { get; set; }</Member>
+        <Member type="Property">public String contractor { get; set; }</Member>
+        <Member type="Constructor">public estimateInfo()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>NewConnectionInfo</Name>
+        <Access>Public</Access>
+        <Location left="449" top="160" />
+        <Size width="162" height="298" />
+        <Collapsed>False</Collapsed>
+        <Member type="Property">public String appsNo { get; set; }</Member>
+        <Member type="Property">public DateTime receivedDate { get; set; }</Member>
+        <Member type="Property">public String paymentId { get; set; }</Member>
+        <Member type="Property">public DateTime amountReceivedOn { get; set; }</Member>
+        <Member type="Property">public Double initialAmount { get; set; }</Member>
+        <Member type="Property">public String customerId { get; set; }</Member>
+        <Member type="Property">public String name { get; set; }</Member>
+        <Member type="Property">public String address { get; set; }</Member>
+        <Member type="Property">public String phone { get; set; }</Member>
+        <Member type="Property">public Double quotationAmount { get; set; }</Member>
+        <Member type="Property">public DateTime quotationSendDate { get; set; }</Member>
+        <Member type="Property">public String serviceConnectionNo { get; set; }</Member>
+        <Member type="Constructor">public NewConnectionInfo()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Enum">
+        <Name>PostType</Name>
+        <Access>Public</Access>
+        <Location left="224" top="12" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Value>DataEnterer = 0</Value>
+        <Value>Officer = 1</Value>
+        <Value>Estimator = 2</Value>
+        <Value>Admin = 3</Value>
+      </Entity>
+      <Entity type="Enum">
+        <Name>AngleType</Name>
+        <Access>Public</Access>
+        <Location left="12" top="12" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Value>Short = 0</Value>
+        <Value>Long = 1</Value>
+      </Entity>
+      <Entity type="Class">
+        <Name>DbInteraction</Name>
+        <Access>Public</Access>
+        <Location left="665" top="10" />
+        <Size width="162" height="842" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private static String passwordCurrent</Member>
+        <Member type="Field">private static String dbmsCurrent</Member>
+        <Member type="Constructor">static DbInteraction()</Member>
+        <Member type="Method">private static MySqlConnection OpenDbConnection()</Member>
+        <Member type="Method">public static Int32 DoRegisterNewNewConnection(NewConnectionInfo newConnectionDetails)</Member>
+        <Member type="Method">private static Int32 DoRegisterNewNewConnectionInDb(NewConnectionInfo newConnectionDetails)</Member>
+        <Member type="Method">public static List&lt;NewConnectionInfo&gt; GetAllNewConnectionList()</Member>
+        <Member type="Method">private static List&lt;NewConnectionInfo&gt; QueryAllNewConnectionList()</Member>
+        <Member type="Method">public static Void DeleteNewConnection(String newConnectionToDelete)</Member>
+        <Member type="Method">public static Void EditNewConnection(NewConnectionInfo newConnectionToEdit)</Member>
+        <Member type="Method">public static String GetNewConnectionCustomerId(String appNo)</Member>
+        <Member type="Method">public static Int32 DoRegisterNewEmployee(EmployeeInfo employeeDetails)</Member>
+        <Member type="Method">private static Int32 DoRegisterNewEmployeeInDb(EmployeeInfo employeeDetails)</Member>
+        <Member type="Method">public static List&lt;EmployeeInfo&gt; GetAllEmployeeList()</Member>
+        <Member type="Method">private static List&lt;EmployeeInfo&gt; QueryAllEmployeeList()</Member>
+        <Member type="Method">public static Void DeleteEmployee(String employeeToDelete)</Member>
+        <Member type="Method">public static Void EditEmployee(EmployeeInfo employeeToEdit)</Member>
+        <Member type="Method">public static Int32 DoRegisterNewContractor(ContractorInfo contractorDetails)</Member>
+        <Member type="Method">private static Int32 DoRegisterNewContractorInDb(ContractorInfo contractorDetails)</Member>
+        <Member type="Method">public static List&lt;ContractorInfo&gt; GetAllContractorList()</Member>
+        <Member type="Method">private static List&lt;ContractorInfo&gt; QueryAllContractorList()</Member>
+        <Member type="Method">public static Void DeleteContractor(String contractorToDelete)</Member>
+        <Member type="Method">public static Void EditContractor(ContractorInfo contractorToEdit)</Member>
+        <Member type="Method">public static List&lt;PaymentInfo&gt; GetUnassignedPaymentList()</Member>
+        <Member type="Method">public static Int32 DoRegisterNewPayment(PaymentInfo peaymentDetails)</Member>
+        <Member type="Method">private static Int32 DoRegisterNewPaymentInDb(PaymentInfo peaymentDetails)</Member>
+        <Member type="Method">public static List&lt;PaymentInfo&gt; GetAllPaymentList()</Member>
+        <Member type="Method">private static List&lt;PaymentInfo&gt; QueryAllPaymentList()</Member>
+        <Member type="Method">public static Void DeletePayment(String paymentToDelete)</Member>
+        <Member type="Method">public static Void EditPayment(PaymentInfo paymentToEdit)</Member>
+        <Member type="Method">public static PaymentInfo GetPaymentInfo(String paymentId)</Member>
+        <Member type="Method">public static List&lt;EmployeeInfo&gt; GetAllEstimatorList()</Member>
+        <Member type="Method">public static Int32 DoRegisterNewEstimate(estimateInfo estimateToEdit)</Member>
+        <Member type="Method">public static Void EditEstimate(estimateInfo estimateToEdit)</Member>
+        <Member type="Method">public static List&lt;estimateInfo&gt; GetAllEstimateList()</Member>
+        <Member type="Method">public static CustomerInfo GetCustomerInfo(String cusId)</Member>
+        <Member type="Method">public static Int32 DoRegisterNewCustomer(CustomerInfo customerDetails)</Member>
+        <Member type="Method">private static Int32 DoRegisterNewCustomerInDb(CustomerInfo customerDetails)</Member>
+        <Member type="Method">public static List&lt;CustomerInfo&gt; GetAllCustomerList()</Member>
+        <Member type="Method">private static List&lt;CustomerInfo&gt; QueryAllCustomerList()</Member>
+        <Member type="Method">public static Void DeleteCustomer(String customerToDelete)</Member>
+        <Member type="Method">public static Void EditCustomer(CustomerInfo employeeToEdit)</Member>
+        <Member type="Method">public static Void assignEstimator(estimateInfo estimateToEdit)</Member>
+        <Member type="Method">public static List&lt;estimateInfo&gt; GetAllEstimateListWithContractor()</Member>
+        <Member type="Method">public static Void assignContractor(estimateInfo contractorToEdit)</Member>
+        <Modifier>Static</Modifier>
+      </Entity>
+    </Entities>
+    <Relationships />
+  </ProjectItem>
+</Project>
