@@ -100,6 +100,20 @@ namespace ECMS
             }
         }
 
+        private void searchBtn_Click(object sender, RoutedEventArgs e)
+        {
+            CustomerInfo custinfo = new CustomerInfo();
+            custinfo.name = searchTxtBlck.Text; 
+            List<CustomerInfo> customers = ESCMSStorage.DbInteraction.searchCustomerList(custinfo);
+
+            _customerCollection.Clear();
+
+            foreach (CustomerInfo customer in customers)
+            {
+                _customerCollection.Add(customer);
+            }
+        }
+
        
         
     }

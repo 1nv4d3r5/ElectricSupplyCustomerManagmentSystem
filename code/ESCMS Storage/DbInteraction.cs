@@ -973,7 +973,7 @@ namespace ESCMSStorage
                 MySql.Data.MySqlClient.MySqlCommand msqlCommand = new MySql.Data.MySqlClient.MySqlCommand();
                 msqlCommand.Connection = msqlConnection;
 
-                msqlCommand.CommandText = "Select * From customer;";
+                msqlCommand.CommandText = "Select * From customer group by name;";
                 MySql.Data.MySqlClient.MySqlDataReader msqlReader = msqlCommand.ExecuteReader();
 
                 while (msqlReader.Read())
@@ -1054,6 +1054,52 @@ namespace ESCMSStorage
                 //always close the connection
                 msqlConnection.Close();
             }
+        }
+
+        public static List<CustomerInfo> searchCustomerList(CustomerInfo custinfo)
+        {
+            return searchAllCustomerList(custinfo);
+        }
+
+        private static List<CustomerInfo> searchAllCustomerList(CustomerInfo custinfo)
+        {
+            List<CustomerInfo> CustomerList = new List<CustomerInfo>();
+
+            MySql.Data.MySqlClient.MySqlConnection msqlConnection = OpenDbConnection();
+
+            try
+            {   //define the command reference
+                MySql.Data.MySqlClient.MySqlCommand msqlCommand = new MySql.Data.MySqlClient.MySqlCommand();
+                msqlCommand.Connection = msqlConnection;
+
+                msqlCommand.CommandText = "Select * From customer where name = @input or address = @input or contact = @input or id = @input ; ";
+
+                msqlCommand.Parameters.AddWithValue("@input", custinfo.name);
+                MySql.Data.MySqlClient.MySqlDataReader msqlReader = msqlCommand.ExecuteReader();
+
+                while (msqlReader.Read())
+                {
+                    CustomerInfo Customer = new CustomerInfo();
+
+                    Customer.id = msqlReader.GetString("id");
+                    Customer.name = msqlReader.GetString("name");
+                    Customer.address = msqlReader.GetString("address");
+                    Customer.contact = msqlReader.GetString("contact");
+                   
+                    CustomerList.Add(Customer);
+                }
+
+            }
+            catch (Exception er)
+            {
+            }
+            finally
+            {
+                //always close the connection
+                msqlConnection.Close();
+            }
+
+            return CustomerList;
         }
 
         #endregion
@@ -1156,6 +1202,10 @@ namespace ESCMSStorage
                 msqlConnection.Close();
             }
         }
+
+
+
+       
     }
     }
 
