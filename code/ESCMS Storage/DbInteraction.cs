@@ -265,7 +265,7 @@ namespace ESCMSStorage
                 MySql.Data.MySqlClient.MySqlCommand msqlCommand = new MySql.Data.MySqlClient.MySqlCommand();
                 msqlCommand.Connection = msqlConnection;
 
-                msqlCommand.CommandText = "Select * From employee;";
+                msqlCommand.CommandText = "Select * From employee group by name;";
                 MySql.Data.MySqlClient.MySqlDataReader msqlReader = msqlCommand.ExecuteReader();
 
                 while (msqlReader.Read())
@@ -355,6 +355,53 @@ namespace ESCMSStorage
             }
         }
 
+        public static List<EmployeeInfo> SearchAllEmployeeList(EmployeeInfo empInfoObj)
+        {
+            return SearchAllEmployeeListDetails(empInfoObj);
+        }
+
+        private static List<EmployeeInfo> SearchAllEmployeeListDetails(EmployeeInfo empInfoObj)
+        {
+            List<EmployeeInfo> EmployeeList = new List<EmployeeInfo>();
+            MySql.Data.MySqlClient.MySqlConnection msqlConnection = OpenDbConnection();
+
+            try
+            {   //define the command reference
+                MySql.Data.MySqlClient.MySqlCommand msqlCommand = new MySql.Data.MySqlClient.MySqlCommand();
+                msqlCommand.Connection = msqlConnection;
+
+                msqlCommand.CommandText = "Select * From employee where name = @input or address = @input or contact = @input or post_type = @input or department = @input;";
+                msqlCommand.Parameters.AddWithValue("@input", empInfoObj.name);
+                MySql.Data.MySqlClient.MySqlDataReader msqlReader = msqlCommand.ExecuteReader();
+
+                while (msqlReader.Read())
+                {
+                    EmployeeInfo Employee = new EmployeeInfo();
+
+                    Employee.id = msqlReader.GetString("id");
+                    Employee.name = msqlReader.GetString("name");
+                    Employee.address = msqlReader.GetString("address");
+                    Employee.contact = msqlReader.GetString("contact");
+                    Employee.postType = (PostType)Enum.Parse(typeof(PostType), msqlReader.GetString("post_type"), true);
+                    Employee.doj = msqlReader.GetDateTime("doj");
+                    Employee.department = msqlReader.GetString("department");
+
+                    EmployeeList.Add(Employee);
+                }
+
+            }
+            catch (Exception er)
+            {
+            }
+            finally
+            {
+                //always close the connection
+                msqlConnection.Close();
+            }
+
+            return EmployeeList;
+        }
+        
         #endregion
 
         #region Contractor
@@ -1254,7 +1301,9 @@ namespace ESCMSStorage
 
 
 
-       
+
+
+        
     }
     }
 

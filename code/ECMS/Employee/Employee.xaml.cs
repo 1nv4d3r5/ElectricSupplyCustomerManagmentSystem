@@ -96,6 +96,22 @@ namespace ECMS
         {
             this.Close();
         }
+
+        private void searchBtn_Click(object sender, RoutedEventArgs e)
+        {
+            EmployeeInfo empInfoObj = new EmployeeInfo();
+            empInfoObj.name = searchTxtBlck.Text;
+
+            List<EmployeeInfo> employees = ESCMSStorage.DbInteraction.SearchAllEmployeeList(empInfoObj);
+
+            _employeeCollection.Clear();
+
+            foreach (EmployeeInfo employee in employees)
+            {
+                _employeeCollection.Add(employee);
+            }
+
+        }
         
     }
 }
