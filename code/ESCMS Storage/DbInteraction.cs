@@ -419,7 +419,7 @@ namespace ESCMSStorage
 
 
 
-                msqlCommand.CommandText = "Select * From contractor;";
+                msqlCommand.CommandText = "Select * From contractor group by name;";
                 MySql.Data.MySqlClient.MySqlDataReader msqlReader = msqlCommand.ExecuteReader();
 
                 while (msqlReader.Read())
@@ -504,6 +504,53 @@ namespace ESCMSStorage
                 //always close the connection
                 msqlConnection.Close();
             }
+        }
+
+        public static List<ContractorInfo> SearchContractorList(ContractorInfo conInfoObj)
+        {
+            return searchAllContractorList(conInfoObj);
+        }
+
+        private static List<ContractorInfo> searchAllContractorList(ContractorInfo coninfoObj)
+        {
+            List<ContractorInfo> ContractorList = new List<ContractorInfo>();
+            MySql.Data.MySqlClient.MySqlConnection msqlConnection = OpenDbConnection();
+
+            try
+            {   //define the command reference
+                MySql.Data.MySqlClient.MySqlCommand msqlCommand = new MySql.Data.MySqlClient.MySqlCommand();
+                msqlCommand.Connection = msqlConnection;
+
+
+
+                msqlCommand.CommandText = "Select * From contractor where name = @input or address = @input or contact = @input or contract_details = @input;";
+                msqlCommand.Parameters.AddWithValue("@input", coninfoObj.name);
+                MySql.Data.MySqlClient.MySqlDataReader msqlReader = msqlCommand.ExecuteReader();
+
+                while (msqlReader.Read())
+                {
+                    ContractorInfo Contractor = new ContractorInfo();
+
+                    Contractor.id = msqlReader.GetString("id");
+                    Contractor.name = msqlReader.GetString("name");
+                    Contractor.address = msqlReader.GetString("address");
+                    Contractor.contact = msqlReader.GetString("contact");
+                    Contractor.details = msqlReader.GetString("contract_details");
+
+                    ContractorList.Add(Contractor);
+                }
+            }
+
+            catch (Exception er)
+            {
+            }
+            finally
+            {
+                //always close the connection
+                msqlConnection.Close();
+            }
+
+            return ContractorList;
         }
 
         #endregion
@@ -1202,6 +1249,8 @@ namespace ESCMSStorage
                 msqlConnection.Close();
             }
         }
+
+
 
 
 

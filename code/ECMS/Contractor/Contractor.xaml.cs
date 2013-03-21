@@ -97,6 +97,23 @@ namespace ECMS
             }
         }
 
+        private void searchBtn_Click(object sender, RoutedEventArgs e)
+        {
+            ContractorInfo conInfoObj = new ContractorInfo();
+            conInfoObj.name = searchTxtBlck.Text;
+
+             List<ContractorInfo> contractors = ESCMSStorage.DbInteraction.SearchContractorList(conInfoObj);
+
+            _contractorCollection.Clear();
+
+            foreach (ContractorInfo contractor in contractors)
+            {
+                _contractorCollection.Add(contractor);
+            }
+        }
+
+        }
+
         
     }
-}
+
