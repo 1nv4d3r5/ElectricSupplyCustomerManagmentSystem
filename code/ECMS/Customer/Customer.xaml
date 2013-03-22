@@ -25,8 +25,8 @@
 
         </UniformGrid>
         <UniformGrid  DockPanel.Dock="Bottom" Rows="1" Columns="7">
-            <Label HorizontalContentAlignment="Center" Background="Beige">Search Customer:</Label>
-            <TextBox Name="searchTxtBlck"  ></TextBox>
+            <Label HorizontalContentAlignment="Center"  Style= "{StaticResource labelStyle}" >Search Customer:</Label>
+            <TextBox Name="searchTxtBlck" Style="{StaticResource textboxStyle}"  ></TextBox>
             <Button Content="Search" ToolTip="Serach Customer Database" Name="searchBtn" Style="{StaticResource smallControlBtnStyle}" Click="searchBtn_Click"></Button>
             <Label></Label>
             <Label></Label>
