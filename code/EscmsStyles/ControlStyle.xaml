@@ -109,7 +109,8 @@
                 </RadialGradientBrush>
             </Setter.Value>
         </Setter>
-        <Setter Property="Foreground" Value="#FFE9F9DE" />
+        <Setter Property="Foreground" Value="White" />
+        <Setter Property="IsEditable" Value="True" />
         <Setter Property="FontSize" Value="20" />
         <Setter Property="FontWeight" Value="Bold" />
         <Setter Property="BorderBrush" Value="#FF3DC43D" />
