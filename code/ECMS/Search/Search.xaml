@@ -21,18 +21,18 @@
             <Label></Label>
             <Label></Label>
             <Label></Label>
-            <Label Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Center" FontWeight="Bold">And/OR</Label>
+            <Label Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Center" FontWeight="Bold"></Label>
             <Label></Label>
             <Label></Label>
-            <Label Content="Customer ID  :" Margin="20" Style="{StaticResource labelStyle}" />
-            <TextBox Name="customerIDTxtbox" Margin="20" Style="{StaticResource textboxStyle}"></TextBox>
+            <Label Content="Address :" Margin="20" Style="{StaticResource labelStyle}" />
+            <TextBox Name="addressxtbox" Margin="20" Style="{StaticResource textboxStyle}"></TextBox>
             <Label></Label>
             <Label></Label>
-            <Label Content="Application ID  :" Margin="20" Style="{StaticResource labelStyle}" />
-            <TextBox Name="applicationIDTxtbox" Margin="20" Style="{StaticResource textboxStyle}"></TextBox>
+            <Label Content="Contact :" Margin="20" Style="{StaticResource labelStyle}" />
+            <TextBox Name="conntactTxtbox" Margin="20" Style="{StaticResource textboxStyle}"></TextBox>
             <Label></Label>
             <Label></Label>
-            <Button Content="Search" ToolTip="Search" Margin="20" Name="searchBtn" Style="{StaticResource smallControlBtnStyle}"></Button>
+            <Button Content="Search" ToolTip="Search" Margin="20" Name="searchBtn" Style="{StaticResource smallControlBtnStyle}" Click="searchBtn_Click"></Button>
             <Button Content="Cancel" ToolTip="Cancel" Margin="20" Name="cancelBtn" Style="{StaticResource smallControlBtnStyle}" Click="cancelBtn_Click"></Button>
             <Label></Label>
         </UniformGrid>
