@@ -20,13 +20,13 @@
         
         <Button DockPanel.Dock="Bottom" HorizontalAlignment="Right" Content="Cancel"  ToolTip="Cancel" Name="cancelBtn" Style="{StaticResource smallControlBtnStyle}" Click="cancelBtn_Click"></Button>
         <UniformGrid  DockPanel.Dock="top" Rows="1">
-            <Label HorizontalContentAlignment="Center" Background="Beige">Search Employee:</Label>
-            <TextBox Name="searchTxtBlck"  ></TextBox>
+            <Label HorizontalContentAlignment="Center" Style="{StaticResource labelStyle}">Search Employee:</Label>
+            <TextBox Name="searchTxtBlck" Style="{StaticResource textboxStyle}"  ></TextBox>
             <Button Content="Search" ToolTip="Serach Employee Database" Name="searchBtn" Style="{StaticResource smallControlBtnStyle}" Click="searchBtn_Click"></Button>
-            <Button Content="View Details"  ToolTip="View or Refresh" Name="viewEmployeeBtn" Style="{StaticResource smallControlBtnStyle}" Click="viewEmployeeBtn_Click"></Button>
-            <Button Content="Add Employee" ToolTip="Click To Add New Employee" Name="addEmployeeBtn" Style="{StaticResource smallControlBtnStyle}" Click="addEmployeeBtn_Click"></Button>
-            <Button Content="Edit Details"  ToolTip="Edit Details" Name="editEmployeeBtn" Style="{StaticResource smallControlBtnStyle}" Click="editEmployeeBtn_Click"></Button>
-            <Button Content="Delete Details"  ToolTip="Delete Selected Details" Name="deleteEmployeeBtn" Style="{StaticResource smallControlBtnStyle}" Click="deleteEmployeeBtn_Click"></Button>
+            <Button Content="View Info"  ToolTip="View or Refresh" Name="viewEmployeeBtn" Style="{StaticResource smallControlBtnStyle}" Click="viewEmployeeBtn_Click"></Button>
+            <Button Content="Add Info" ToolTip="Click To Add New Employee" Name="addEmployeeBtn" Style="{StaticResource smallControlBtnStyle}" Click="addEmployeeBtn_Click"></Button>
+            <Button Content="Edit Info"   ToolTip="Edit Details" Name="editEmployeeBtn" Style="{StaticResource smallControlBtnStyle}" Click="editEmployeeBtn_Click"></Button>
+            <Button Content="Delete Info"  ToolTip="Delete Selected Details" Name="deleteEmployeeBtn" Style="{StaticResource smallControlBtnStyle}" Click="deleteEmployeeBtn_Click" Width="159"></Button>
         </UniformGrid>
         <ListView DockPanel.Dock="top" Name="employeeView" ItemsSource="{Binding employeeCollection}">
                 <ListView.View>
