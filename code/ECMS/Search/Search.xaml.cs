@@ -11,6 +11,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using ESCMSData;
+using System.Collections.ObjectModel;
 
 namespace ECMS
 {
@@ -19,6 +20,18 @@ namespace ECMS
     /// </summary>
     public partial class Search : Window
     {
+
+        ObservableCollection<CustomerInfo> _customerCollection = new ObservableCollection<CustomerInfo>();
+
+
+        public ObservableCollection<CustomerInfo> customerCollection
+        {
+            get
+            {
+                return _customerCollection;
+            }
+        }
+
         public Search()
         {
             InitializeComponent();
@@ -32,13 +45,12 @@ namespace ECMS
         private void searchBtn_Click(object sender, RoutedEventArgs e)
         {
             CustomerInfo custinfo = new CustomerInfo();
-            custinfo.name = customerNameTxtbox.Text;
+            custinfo.name = searchTxtBlck.Text;
             List<CustomerInfo> customers = ESCMSStorage.DbInteraction.searchCustomerList(custinfo);
 
             foreach (CustomerInfo customer in customers)
             {
-                addressxtbox.Text = customer.address;
-                conntactTxtbox.Text = customer.contact;
+                _customerCollection.Add(customer);
             }
         }
 
