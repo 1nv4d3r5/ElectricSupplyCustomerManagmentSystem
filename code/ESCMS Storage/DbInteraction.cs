@@ -9,7 +9,7 @@ namespace ESCMSStorage
 {
     public static class DbInteraction
     {
-        static string passwordCurrent = "technicise";
+        static string passwordCurrent = "1234";
         static string dbmsCurrent = "escmsdatabase";
 
         private static MySql.Data.MySqlClient.MySqlConnection OpenDbConnection()
