@@ -1,0 +1,427 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpTOC>
+
+  <HelpTOCNode Id="d82ebb6c-4cf6-4f2a-9752-6807633c8da2" Title="ECMS Namespace" Url="html/88806692.htm">
+    <HelpTOCNode Id="beac7d3a-0152-4fa1-86af-83cd3eee0871" Title="App Class" Url="html/925390383.htm">
+      <HelpTOCNode Title="App Members" Url="html/146994748.htm" />
+      <HelpTOCNode Title="App Members" Url="html/146994748.htm" />
+      <HelpTOCNode Title="App Constructor " Url="html/2021606526.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="0206417e-3d1b-4ba9-b382-93d07d278454" Title="App Class" Url="html/925390383.htm">
+      <HelpTOCNode Title="App Members" Url="html/146994748.htm" />
+      <HelpTOCNode Title="App Members" Url="html/146994748.htm" />
+      <HelpTOCNode Title="App Constructor " Url="html/2021606526.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="d722afbb-df9f-4da1-8a03-2d86ce39156c" Title="Connection Class" Url="html/2119422741.htm">
+      <HelpTOCNode Title="Connection Members" Url="html/1885695833.htm" />
+      <HelpTOCNode Title="Connection Members" Url="html/1885695833.htm" />
+      <HelpTOCNode Title="Connection Constructor " Url="html/1094967248.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="9c93c2a8-88b9-4f5f-8546-e8d68d308d85" Title="Connection Class" Url="html/2119422741.htm">
+      <HelpTOCNode Title="Connection Members" Url="html/1885695833.htm" />
+      <HelpTOCNode Title="Connection Members" Url="html/1885695833.htm" />
+      <HelpTOCNode Title="Connection Constructor " Url="html/1094967248.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="2a5fe3aa-e33e-4e9c-b54d-8a04ee31dfa3" Title="newapplication Class" Url="html/1501638206.htm">
+      <HelpTOCNode Title="newapplication Members" Url="html/1043524430.htm" />
+      <HelpTOCNode Title="newapplication Members" Url="html/1043524430.htm" />
+      <HelpTOCNode Title="newapplication Constructor " Url="html/1968577520.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="bd226bfd-fd09-4022-8d25-ff8c3230ab1a" Title="newapplication Class" Url="html/1501638206.htm">
+      <HelpTOCNode Title="newapplication Members" Url="html/1043524430.htm" />
+      <HelpTOCNode Title="newapplication Members" Url="html/1043524430.htm" />
+      <HelpTOCNode Title="newapplication Constructor " Url="html/1968577520.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="12becb07-0b47-456e-816f-4742533709a4" Title="AddContractor Class" Url="html/1646331701.htm">
+      <HelpTOCNode Title="AddContractor Members" Url="html/2035682944.htm" />
+      <HelpTOCNode Title="AddContractor Members" Url="html/2035682944.htm" />
+      <HelpTOCNode Title="AddContractor Constructor " Url="html/548199807.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="58d44805-1987-4d74-993d-80dea2f24f47" Title="AddContractor Class" Url="html/1646331701.htm">
+      <HelpTOCNode Title="AddContractor Members" Url="html/2035682944.htm" />
+      <HelpTOCNode Title="AddContractor Members" Url="html/2035682944.htm" />
+      <HelpTOCNode Title="AddContractor Constructor " Url="html/548199807.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="87e71d0d-511d-4e01-959c-ed4b824908fc" Title="Contractor Class" Url="html/2017809802.htm">
+      <HelpTOCNode Title="Contractor Members" Url="html/605352317.htm" />
+      <HelpTOCNode Title="Contractor Members" Url="html/605352317.htm" />
+      <HelpTOCNode Title="Contractor Constructor " Url="html/988847498.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="b367c765-7b60-4b28-82f2-01a32de106fd" Title="Contractor Class" Url="html/2017809802.htm">
+      <HelpTOCNode Title="Contractor Members" Url="html/605352317.htm" />
+      <HelpTOCNode Title="Contractor Members" Url="html/605352317.htm" />
+      <HelpTOCNode Title="Contractor Constructor " Url="html/988847498.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="d9a06e53-df5f-4290-b5c8-4094758967e6" Title="AddBill Class" Url="html/1082937720.htm">
+      <HelpTOCNode Title="AddBill Members" Url="html/750590532.htm" />
+      <HelpTOCNode Title="AddBill Members" Url="html/750590532.htm" />
+      <HelpTOCNode Title="AddBill Constructor " Url="html/1274776305.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="e969648a-2279-4225-9603-0522fb3079c0" Title="AddBill Class" Url="html/1082937720.htm">
+      <HelpTOCNode Title="AddBill Members" Url="html/750590532.htm" />
+      <HelpTOCNode Title="AddBill Members" Url="html/750590532.htm" />
+      <HelpTOCNode Title="AddBill Constructor " Url="html/1274776305.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="b5a4218c-bcc4-4f78-ada7-9a19fc981138" Title="ContractorBill Class" Url="html/1112746571.htm">
+      <HelpTOCNode Title="ContractorBill Members" Url="html/1055754286.htm" />
+      <HelpTOCNode Title="ContractorBill Members" Url="html/1055754286.htm" />
+      <HelpTOCNode Title="ContractorBill Constructor " Url="html/352988732.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="98dc16f9-c62f-491b-903b-32881399377e" Title="ContractorBill Class" Url="html/1112746571.htm">
+      <HelpTOCNode Title="ContractorBill Members" Url="html/1055754286.htm" />
+      <HelpTOCNode Title="ContractorBill Members" Url="html/1055754286.htm" />
+      <HelpTOCNode Title="ContractorBill Constructor " Url="html/352988732.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="1a909478-b462-421d-98b7-07c2e9e88fe8" Title="Credits Class" Url="html/1314378784.htm">
+      <HelpTOCNode Title="Credits Members" Url="html/1265334158.htm" />
+      <HelpTOCNode Title="Credits Members" Url="html/1265334158.htm" />
+      <HelpTOCNode Title="Credits Constructor " Url="html/516088750.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="219c4c5a-98fa-486a-8a00-5648ed02ebbb" Title="Credits Class" Url="html/1314378784.htm">
+      <HelpTOCNode Title="Credits Members" Url="html/1265334158.htm" />
+      <HelpTOCNode Title="Credits Members" Url="html/1265334158.htm" />
+      <HelpTOCNode Title="Credits Constructor " Url="html/516088750.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="9e9be93d-7373-43e1-bda1-da3282a94434" Title="AddCustomer Class" Url="html/184105858.htm">
+      <HelpTOCNode Title="AddCustomer Members" Url="html/70076106.htm" />
+      <HelpTOCNode Title="AddCustomer Members" Url="html/70076106.htm" />
+      <HelpTOCNode Title="AddCustomer Constructor " Url="html/2008338218.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="ffd563d0-c95d-416f-b2df-451936d5f40f" Title="AddCustomer Class" Url="html/184105858.htm">
+      <HelpTOCNode Title="AddCustomer Members" Url="html/70076106.htm" />
+      <HelpTOCNode Title="AddCustomer Members" Url="html/70076106.htm" />
+      <HelpTOCNode Title="AddCustomer Constructor " Url="html/2008338218.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="d5fb664e-71f7-4ccd-af57-b645513a1f84" Title="Customer Class" Url="html/602678145.htm">
+      <HelpTOCNode Title="Customer Members" Url="html/341872036.htm" />
+      <HelpTOCNode Title="Customer Members" Url="html/341872036.htm" />
+      <HelpTOCNode Title="Customer Constructor " Url="html/1688954872.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="de26d773-9b6f-4507-b80e-a73c19faa61d" Title="Customer Class" Url="html/602678145.htm">
+      <HelpTOCNode Title="Customer Members" Url="html/341872036.htm" />
+      <HelpTOCNode Title="Customer Members" Url="html/341872036.htm" />
+      <HelpTOCNode Title="Customer Constructor " Url="html/1688954872.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="52f60cda-7fe1-4013-8426-f834a228bcc5" Title="AddEmployee Class" Url="html/754136453.htm">
+      <HelpTOCNode Title="AddEmployee Members" Url="html/2004985829.htm" />
+      <HelpTOCNode Title="AddEmployee Members" Url="html/2004985829.htm" />
+      <HelpTOCNode Title="AddEmployee Constructor " Url="html/697299837.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="acfb3e28-7c8d-45de-945f-e500c5b3e053" Title="AddEmployee Class" Url="html/754136453.htm">
+      <HelpTOCNode Title="AddEmployee Members" Url="html/2004985829.htm" />
+      <HelpTOCNode Title="AddEmployee Members" Url="html/2004985829.htm" />
+      <HelpTOCNode Title="AddEmployee Constructor " Url="html/697299837.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="61ad93ac-4070-4897-a38f-7dbb8a50e297" Title="Employee Class" Url="html/2138040054.htm">
+      <HelpTOCNode Title="Employee Members" Url="html/1910708793.htm" />
+      <HelpTOCNode Title="Employee Members" Url="html/1910708793.htm" />
+      <HelpTOCNode Title="Employee Constructor " Url="html/2064792514.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="fa069de7-ed8f-498a-bb3e-c500b60199d3" Title="Employee Class" Url="html/2138040054.htm">
+      <HelpTOCNode Title="Employee Members" Url="html/1910708793.htm" />
+      <HelpTOCNode Title="Employee Members" Url="html/1910708793.htm" />
+      <HelpTOCNode Title="Employee Constructor " Url="html/2064792514.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="b6031c9f-8f99-4e02-a8a3-1c0afd73aae0" Title="login Class" Url="html/247903233.htm">
+      <HelpTOCNode Title="login Members" Url="html/364855892.htm" />
+      <HelpTOCNode Title="login Members" Url="html/364855892.htm" />
+      <HelpTOCNode Title="login Constructor " Url="html/1936096848.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="57b8b4ca-72ad-4c61-a742-d71946bca907" Title="login Class" Url="html/247903233.htm">
+      <HelpTOCNode Title="login Members" Url="html/364855892.htm" />
+      <HelpTOCNode Title="login Members" Url="html/364855892.htm" />
+      <HelpTOCNode Title="login Constructor " Url="html/1936096848.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="4f93a06b-225c-40df-93c5-91cdb84e7d00" Title="AddEstimator Class" Url="html/898447579.htm">
+      <HelpTOCNode Title="AddEstimator Members" Url="html/323922370.htm" />
+      <HelpTOCNode Title="AddEstimator Members" Url="html/323922370.htm" />
+      <HelpTOCNode Title="AddEstimator Constructor " Url="html/77447771.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="5571dbe8-6cb5-4626-8bc1-556ddfe6b705" Title="AddEstimator Class" Url="html/898447579.htm">
+      <HelpTOCNode Title="AddEstimator Members" Url="html/323922370.htm" />
+      <HelpTOCNode Title="AddEstimator Members" Url="html/323922370.htm" />
+      <HelpTOCNode Title="AddEstimator Constructor " Url="html/77447771.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="af326a6b-9929-41f4-97eb-e9aa16caf08c" Title="AddQuotation Class" Url="html/1386580595.htm">
+      <HelpTOCNode Title="AddQuotation Members" Url="html/1854513064.htm" />
+      <HelpTOCNode Title="AddQuotation Members" Url="html/1854513064.htm" />
+      <HelpTOCNode Title="AddQuotation Constructor " Url="html/429126127.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="40b598d3-6caa-4548-8e75-46a3b96308c0" Title="AddQuotation Class" Url="html/1386580595.htm">
+      <HelpTOCNode Title="AddQuotation Members" Url="html/1854513064.htm" />
+      <HelpTOCNode Title="AddQuotation Members" Url="html/1854513064.htm" />
+      <HelpTOCNode Title="AddQuotation Constructor " Url="html/429126127.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="12e31334-a3f6-4a55-868e-27ece744402a" Title="EstimationQuotationDisplay Class" Url="html/2112478242.htm">
+      <HelpTOCNode Title="EstimationQuotationDisplay Members" Url="html/1804908884.htm" />
+      <HelpTOCNode Title="EstimationQuotationDisplay Members" Url="html/1804908884.htm" />
+      <HelpTOCNode Title="EstimationQuotationDisplay Constructor " Url="html/2073129294.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="b45f7cc2-209e-4c6a-84e8-4222eb32373f" Title="EstimationQuotationDisplay Class" Url="html/2112478242.htm">
+      <HelpTOCNode Title="EstimationQuotationDisplay Members" Url="html/1804908884.htm" />
+      <HelpTOCNode Title="EstimationQuotationDisplay Members" Url="html/1804908884.htm" />
+      <HelpTOCNode Title="EstimationQuotationDisplay Constructor " Url="html/2073129294.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="7f6322af-c7b9-4c36-8bb1-1f40e468978b" Title="FirstLoginWindow Class" Url="html/306491472.htm">
+      <HelpTOCNode Title="FirstLoginWindow Members" Url="html/561732872.htm" />
+      <HelpTOCNode Title="FirstLoginWindow Members" Url="html/561732872.htm" />
+      <HelpTOCNode Title="FirstLoginWindow Constructor " Url="html/697446364.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="b3107fdc-6aaf-4457-880e-76bf7dcfd051" Title="FirstLoginWindow Class" Url="html/306491472.htm">
+      <HelpTOCNode Title="FirstLoginWindow Members" Url="html/561732872.htm" />
+      <HelpTOCNode Title="FirstLoginWindow Members" Url="html/561732872.htm" />
+      <HelpTOCNode Title="FirstLoginWindow Constructor " Url="html/697446364.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="4b5fe07f-663f-4d28-baf4-fb7b50a55894" Title="MainWindow Class" Url="html/830531009.htm">
+      <HelpTOCNode Title="MainWindow Members" Url="html/151598952.htm" />
+      <HelpTOCNode Title="MainWindow Members" Url="html/151598952.htm" />
+      <HelpTOCNode Title="MainWindow Constructor " Url="html/365720729.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="d77a2258-0859-4367-89ae-c4d8ba3e322a" Title="MainWindow Class" Url="html/830531009.htm">
+      <HelpTOCNode Title="MainWindow Members" Url="html/151598952.htm" />
+      <HelpTOCNode Title="MainWindow Members" Url="html/151598952.htm" />
+      <HelpTOCNode Title="MainWindow Constructor " Url="html/365720729.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="a0432a17-e0b5-414b-95e3-9da7338c2661" Title="AddPayment Class" Url="html/352280904.htm">
+      <HelpTOCNode Title="AddPayment Members" Url="html/986423901.htm" />
+      <HelpTOCNode Title="AddPayment Members" Url="html/986423901.htm" />
+      <HelpTOCNode Title="AddPayment Constructor " Url="html/484045064.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="a6824ff1-2e9a-4fbc-bf6e-138ecd921224" Title="AddPayment Class" Url="html/352280904.htm">
+      <HelpTOCNode Title="AddPayment Members" Url="html/986423901.htm" />
+      <HelpTOCNode Title="AddPayment Members" Url="html/986423901.htm" />
+      <HelpTOCNode Title="AddPayment Constructor " Url="html/484045064.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="ada31c97-457f-4d69-b33a-64bd6c9ff5f7" Title="Payment Class" Url="html/1809366012.htm">
+      <HelpTOCNode Title="Payment Members" Url="html/598084544.htm" />
+      <HelpTOCNode Title="Payment Members" Url="html/598084544.htm" />
+      <HelpTOCNode Title="Payment Constructor " Url="html/847245282.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="566b86b1-a15d-418d-a973-7b5e215bbbd5" Title="Payment Class" Url="html/1809366012.htm">
+      <HelpTOCNode Title="Payment Members" Url="html/598084544.htm" />
+      <HelpTOCNode Title="Payment Members" Url="html/598084544.htm" />
+      <HelpTOCNode Title="Payment Constructor " Url="html/847245282.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="c6d9c4dd-1645-4e96-99c7-cbf94480bb35" Title="Report Class" Url="html/328979272.htm">
+      <HelpTOCNode Title="Report Members" Url="html/72213809.htm" />
+      <HelpTOCNode Title="Report Members" Url="html/72213809.htm" />
+      <HelpTOCNode Title="Report Constructor " Url="html/444908910.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="99664f30-63a1-458c-b454-2c5c64d1facf" Title="Report Class" Url="html/328979272.htm">
+      <HelpTOCNode Title="Report Members" Url="html/72213809.htm" />
+      <HelpTOCNode Title="Report Members" Url="html/72213809.htm" />
+      <HelpTOCNode Title="Report Constructor " Url="html/444908910.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="2ecb57b1-a4ba-4a51-8413-3e2822e9f565" Title="Search Class" Url="html/994627739.htm">
+      <HelpTOCNode Title="Search Members" Url="html/967863344.htm" />
+      <HelpTOCNode Title="Search Members" Url="html/967863344.htm" />
+      <HelpTOCNode Title="Search Constructor " Url="html/890247568.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="5fff48f7-4942-42a1-bfe5-1e7bf912ffe5" Title="Search Class" Url="html/994627739.htm">
+      <HelpTOCNode Title="Search Members" Url="html/967863344.htm" />
+      <HelpTOCNode Title="Search Members" Url="html/967863344.htm" />
+      <HelpTOCNode Title="Search Constructor " Url="html/890247568.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="ac61dead-486b-4277-ba5a-73958f6fa9fd" Title="ChangePassword Class" Url="html/1603259998.htm">
+      <HelpTOCNode Title="ChangePassword Members" Url="html/2092339123.htm" />
+      <HelpTOCNode Title="ChangePassword Members" Url="html/2092339123.htm" />
+      <HelpTOCNode Title="ChangePassword Constructor " Url="html/2001830235.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="cb9efd5a-e635-45f7-ab13-57f91ec79772" Title="ChangePassword Class" Url="html/1603259998.htm">
+      <HelpTOCNode Title="ChangePassword Members" Url="html/2092339123.htm" />
+      <HelpTOCNode Title="ChangePassword Members" Url="html/2092339123.htm" />
+      <HelpTOCNode Title="ChangePassword Constructor " Url="html/2001830235.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="1a790cb9-39de-4880-a54d-c230fc33ae80" Title="Settings Class" Url="html/1788945748.htm">
+      <HelpTOCNode Title="Settings Members" Url="html/946478275.htm" />
+      <HelpTOCNode Title="Settings Members" Url="html/946478275.htm" />
+      <HelpTOCNode Title="Settings Constructor " Url="html/584845545.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="2dbbcfc8-83d0-4369-bd33-2f3c844ec158" Title="Settings Class" Url="html/1788945748.htm">
+      <HelpTOCNode Title="Settings Members" Url="html/946478275.htm" />
+      <HelpTOCNode Title="Settings Members" Url="html/946478275.htm" />
+      <HelpTOCNode Title="Settings Constructor " Url="html/584845545.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="f73a0a4b-245a-4690-a33e-661a7c501836" Title="AssignContractor Class" Url="html/1784910850.htm">
+      <HelpTOCNode Title="AssignContractor Members" Url="html/1866821993.htm" />
+      <HelpTOCNode Title="AssignContractor Members" Url="html/1866821993.htm" />
+      <HelpTOCNode Title="AssignContractor Constructor " Url="html/723476552.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="eea26a6a-4304-4967-8af9-fa00b9037a8a" Title="AssignContractor Class" Url="html/1784910850.htm">
+      <HelpTOCNode Title="AssignContractor Members" Url="html/1866821993.htm" />
+      <HelpTOCNode Title="AssignContractor Members" Url="html/1866821993.htm" />
+      <HelpTOCNode Title="AssignContractor Constructor " Url="html/723476552.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="616f5207-e4b4-4631-a0e9-f332ae453f4d" Title="WorkOrder Class" Url="html/78502787.htm">
+      <HelpTOCNode Title="WorkOrder Members" Url="html/260367122.htm" />
+      <HelpTOCNode Title="WorkOrder Members" Url="html/260367122.htm" />
+      <HelpTOCNode Title="WorkOrder Constructor " Url="html/524469041.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="5066a984-679e-4d97-a835-f88926de46fd" Title="WorkOrder Class" Url="html/78502787.htm">
+      <HelpTOCNode Title="WorkOrder Members" Url="html/260367122.htm" />
+      <HelpTOCNode Title="WorkOrder Members" Url="html/260367122.htm" />
+      <HelpTOCNode Title="WorkOrder Constructor " Url="html/524469041.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Title="login.delegateOnSucccesfulLogin Delegate" Url="html/2015326467.htm" />
+  </HelpTOCNode>
+  <HelpTOCNode Id="090c1c0c-7824-4d6b-a82f-281fc04c1591" Title="ESCMSData Namespace" Url="html/1816997472.htm">
+    <HelpTOCNode Id="85f5ed10-ec66-41ea-89b0-c651aadc2b5c" Title="ContractorInfo Class" Url="html/1724623368.htm">
+      <HelpTOCNode Title="ContractorInfo Members" Url="html/1174659096.htm" />
+      <HelpTOCNode Id="b981ea93-9f78-4480-818f-f50b1acf73e5" Title="ContractorInfo Properties" Url="html/423815910.htm">
+        <HelpTOCNode Title="id Property " Url="html/847434218.htm" />
+        <HelpTOCNode Title="name Property " Url="html/382088591.htm" />
+        <HelpTOCNode Title="address Property " Url="html/20760907.htm" />
+        <HelpTOCNode Title="contact Property " Url="html/490436982.htm" />
+        <HelpTOCNode Title="details Property " Url="html/967254472.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="8e8c99ba-5891-44d5-968d-b435059ef897" Title="CustomerInfo Class" Url="html/1977677038.htm">
+      <HelpTOCNode Title="CustomerInfo Members" Url="html/1116911135.htm" />
+      <HelpTOCNode Id="24498e67-81e6-4953-91fd-230c775a796f" Title="CustomerInfo Properties" Url="html/1396644874.htm">
+        <HelpTOCNode Title="id Property " Url="html/1236628407.htm" />
+        <HelpTOCNode Title="name Property " Url="html/1987684513.htm" />
+        <HelpTOCNode Title="address Property " Url="html/242146178.htm" />
+        <HelpTOCNode Title="contact Property " Url="html/1735715427.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="7ab3bdf0-473b-4512-a359-7e282c02be11" Title="EmployeeInfo Class" Url="html/1710459084.htm">
+      <HelpTOCNode Title="EmployeeInfo Members" Url="html/1573748673.htm" />
+      <HelpTOCNode Id="55254b75-1131-4426-9c16-cf7722a6ab83" Title="EmployeeInfo Properties" Url="html/1935436458.htm">
+        <HelpTOCNode Title="id Property " Url="html/187181571.htm" />
+        <HelpTOCNode Title="name Property " Url="html/642849453.htm" />
+        <HelpTOCNode Title="address Property " Url="html/1208593158.htm" />
+        <HelpTOCNode Title="contact Property " Url="html/1801420035.htm" />
+        <HelpTOCNode Title="postType Property " Url="html/231656280.htm" />
+        <HelpTOCNode Title="doj Property " Url="html/720900240.htm" />
+        <HelpTOCNode Title="department Property " Url="html/643278041.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="a08f66b4-baa0-4457-b264-be00d7b83697" Title="estimateInfo Class" Url="html/1282101193.htm">
+      <HelpTOCNode Title="estimateInfo Members" Url="html/1498112846.htm" />
+      <HelpTOCNode Id="dc4e6278-109a-4de3-8c45-569523156ab5" Title="estimateInfo Properties" Url="html/1353262331.htm">
+        <HelpTOCNode Title="appsNo Property " Url="html/1796226217.htm" />
+        <HelpTOCNode Title="name Property " Url="html/2103206362.htm" />
+        <HelpTOCNode Title="address Property " Url="html/392606584.htm" />
+        <HelpTOCNode Title="contact Property " Url="html/609014157.htm" />
+        <HelpTOCNode Title="estimator Property " Url="html/1551390778.htm" />
+        <HelpTOCNode Title="initialAmount Property " Url="html/946970417.htm" />
+        <HelpTOCNode Title="wireLength Property " Url="html/778322640.htm" />
+        <HelpTOCNode Title="angleWeight Property " Url="html/228069737.htm" />
+        <HelpTOCNode Title="angleType Property " Url="html/508211404.htm" />
+        <HelpTOCNode Title="quotationAmount Property " Url="html/127657534.htm" />
+        <HelpTOCNode Title="contractor Property " Url="html/1462142321.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="dd41f67c-177a-4dd6-9c6f-b5f63df43a14" Title="NewConnectionInfo Class" Url="html/496899345.htm">
+      <HelpTOCNode Title="NewConnectionInfo Members" Url="html/1810384327.htm" />
+      <HelpTOCNode Id="4d060c75-906d-4e43-b9f0-79af549e4261" Title="NewConnectionInfo Properties" Url="html/1566240505.htm">
+        <HelpTOCNode Title="appsNo Property " Url="html/548176140.htm" />
+        <HelpTOCNode Title="receivedDate Property " Url="html/415140653.htm" />
+        <HelpTOCNode Title="paymentId Property " Url="html/1685760834.htm" />
+        <HelpTOCNode Title="amountReceivedOn Property " Url="html/374972579.htm" />
+        <HelpTOCNode Title="initialAmount Property " Url="html/563785903.htm" />
+        <HelpTOCNode Title="customerId Property " Url="html/1927590064.htm" />
+        <HelpTOCNode Title="name Property " Url="html/2107397023.htm" />
+        <HelpTOCNode Title="address Property " Url="html/1381266715.htm" />
+        <HelpTOCNode Title="phone Property " Url="html/1487463797.htm" />
+        <HelpTOCNode Title="quotationAmount Property " Url="html/2038317317.htm" />
+        <HelpTOCNode Title="quotationSendDate Property " Url="html/2038933737.htm" />
+        <HelpTOCNode Title="serviceConnectionNo Property " Url="html/1044292489.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="b2bcfa4d-687f-46d3-a922-8412cd6207c3" Title="PaymentInfo Class" Url="html/1106578629.htm">
+      <HelpTOCNode Title="PaymentInfo Members" Url="html/1431872508.htm" />
+      <HelpTOCNode Id="1b6f61c1-8cf4-457a-b347-76f8216c6a72" Title="PaymentInfo Properties" Url="html/1171029359.htm">
+        <HelpTOCNode Title="id Property " Url="html/2131091953.htm" />
+        <HelpTOCNode Title="name Property " Url="html/474296722.htm" />
+        <HelpTOCNode Title="customerId Property " Url="html/183999359.htm" />
+        <HelpTOCNode Title="amount Property " Url="html/1351536428.htm" />
+        <HelpTOCNode Title="dop Property " Url="html/915084655.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="PostType Enumeration" Url="html/1173755643.htm" />
+    <HelpTOCNode Title="AngleType Enumeration" Url="html/1791310350.htm" />
+  </HelpTOCNode>
+  <HelpTOCNode Id="42dcb12d-46cb-499e-8b4d-fbf61932e11c" Title="ECMS.Properties Namespace" Url="html/497590079.htm">
+    <HelpTOCNode Id="466577d9-758f-4d29-b831-896ed7157b9c" Title="Resources Class" Url="html/630978387.htm">
+      <HelpTOCNode Title="Resources Members" Url="html/1197881150.htm" />
+      <HelpTOCNode Title="Resources Constructor " Url="html/182140022.htm" />
+      <HelpTOCNode Id="58ab017e-7d10-4e70-b1d0-cbb320de954a" Title="Resources Fields" Url="html/1847336081.htm">
+        <HelpTOCNode Title="resourceMan Field" Url="html/610788696.htm" />
+        <HelpTOCNode Title="resourceCulture Field" Url="html/1274619196.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="6ad6a8b6-a3c1-4548-b138-64adc46a243e" Title="Resources Properties" Url="html/418469873.htm">
+        <HelpTOCNode Title="ResourceManager Property " Url="html/492319293.htm" />
+        <HelpTOCNode Title="Culture Property " Url="html/3622430.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="91d5316a-9210-4709-b2a6-0b91c2f2d6a4" Title="Settings Class" Url="html/1587494287.htm">
+      <HelpTOCNode Title="Settings Members" Url="html/119188905.htm" />
+      <HelpTOCNode Id="4d914679-4a1f-4031-bcc1-4d3f5ddf4743" Title="Settings Fields" Url="html/232868118.htm">
+        <HelpTOCNode Title="defaultInstance Field" Url="html/1293236994.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="3a7490c6-8976-4fad-a28d-fcffa79dcfde" Title="Settings Properties" Url="html/728700378.htm">
+        <HelpTOCNode Title="Default Property " Url="html/1858707664.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="d979ed54-4933-43e8-930d-4701daf67c01" Title="ESCMSStorage Namespace" Url="html/829645248.htm">
+    <HelpTOCNode Id="9df757fc-66e1-4362-8362-baa6e94fa2d7" Title="DbInteraction Class" Url="html/1289587633.htm">
+      <HelpTOCNode Title="DbInteraction Members" Url="html/342713236.htm" />
+      <HelpTOCNode Id="38df4695-734e-49fa-9cf0-551b6e9751c9" Title="DbInteraction Fields" Url="html/1206131922.htm">
+        <HelpTOCNode Title="passwordCurrent Field" Url="html/1264582883.htm" />
+        <HelpTOCNode Title="dbmsCurrent Field" Url="html/1660226972.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="c5c06f3d-83da-42bc-ae7b-f9a5729ec4f5" Title="DbInteraction Methods" Url="html/1533148767.htm">
+        <HelpTOCNode Title="GetAllNewConnectionList Method " Url="html/56517623.htm" />
+        <HelpTOCNode Title="QueryAllNewConnectionList Method " Url="html/1063003323.htm" />
+        <HelpTOCNode Title="GetAllEmployeeList Method " Url="html/1331812597.htm" />
+        <HelpTOCNode Title="QueryAllEmployeeList Method " Url="html/196411534.htm" />
+        <HelpTOCNode Title="GetAllContractorList Method " Url="html/1952772800.htm" />
+        <HelpTOCNode Title="QueryAllContractorList Method " Url="html/1765220778.htm" />
+        <HelpTOCNode Title="GetUnassignedPaymentList Method " Url="html/872448363.htm" />
+        <HelpTOCNode Title="GetAllPaymentList Method " Url="html/1403974569.htm" />
+        <HelpTOCNode Title="QueryAllPaymentList Method " Url="html/1184634062.htm" />
+        <HelpTOCNode Title="GetAllEstimatorList Method " Url="html/1254587958.htm" />
+        <HelpTOCNode Title="GetAllEstimateList Method " Url="html/232901496.htm" />
+        <HelpTOCNode Title="GetAllCustomerList Method " Url="html/1861452739.htm" />
+        <HelpTOCNode Title="QueryAllCustomerList Method " Url="html/1475639076.htm" />
+        <HelpTOCNode Title="GetAllEstimateListWithContractor Method " Url="html/1766494220.htm" />
+        <HelpTOCNode Title="SearchAllEmployeeList Method " Url="html/1211430329.htm" />
+        <HelpTOCNode Title="SearchAllEmployeeListDetails Method " Url="html/103138548.htm" />
+        <HelpTOCNode Title="SearchContractorList Method " Url="html/2054447216.htm" />
+        <HelpTOCNode Title="searchAllContractorList Method " Url="html/909326777.htm" />
+        <HelpTOCNode Title="searchCustomerList Method " Url="html/975390868.htm" />
+        <HelpTOCNode Title="searchAllCustomerList Method " Url="html/1643879873.htm" />
+        <HelpTOCNode Title="DeleteNewConnection Method " Url="html/20815830.htm" />
+        <HelpTOCNode Title="EditNewConnection Method " Url="html/6343451.htm" />
+        <HelpTOCNode Title="DeleteEmployee Method " Url="html/1063718175.htm" />
+        <HelpTOCNode Title="EditEmployee Method " Url="html/1800519233.htm" />
+        <HelpTOCNode Title="DeleteContractor Method " Url="html/1339276314.htm" />
+        <HelpTOCNode Title="EditContractor Method " Url="html/4801882.htm" />
+        <HelpTOCNode Title="DeletePayment Method " Url="html/52858128.htm" />
+        <HelpTOCNode Title="EditPayment Method " Url="html/472995797.htm" />
+        <HelpTOCNode Title="EditEstimate Method " Url="html/696689896.htm" />
+        <HelpTOCNode Title="DeleteCustomer Method " Url="html/777247907.htm" />
+        <HelpTOCNode Title="EditCustomer Method " Url="html/507489557.htm" />
+        <HelpTOCNode Title="assignEstimator Method " Url="html/1086062923.htm" />
+        <HelpTOCNode Title="assignContractor Method " Url="html/859930894.htm" />
+        <HelpTOCNode Title="DoRegisterNewNewConnection Method " Url="html/1684065515.htm" />
+        <HelpTOCNode Title="DoRegisterNewNewConnectionInDb Method " Url="html/976613813.htm" />
+        <HelpTOCNode Title="GetNewConnectionCustomerId Method " Url="html/1512224991.htm" />
+        <HelpTOCNode Title="DoRegisterNewEmployee Method " Url="html/1550491716.htm" />
+        <HelpTOCNode Title="DoRegisterNewEmployeeInDb Method " Url="html/1865647085.htm" />
+        <HelpTOCNode Title="DoRegisterNewContractor Method " Url="html/1210459207.htm" />
+        <HelpTOCNode Title="DoRegisterNewContractorInDb Method " Url="html/1928701273.htm" />
+        <HelpTOCNode Title="DoRegisterNewPayment Method " Url="html/894571452.htm" />
+        <HelpTOCNode Title="DoRegisterNewPaymentInDb Method " Url="html/496170997.htm" />
+        <HelpTOCNode Title="GetPaymentInfo Method " Url="html/739980924.htm" />
+        <HelpTOCNode Title="DoRegisterNewEstimate Method " Url="html/609941892.htm" />
+        <HelpTOCNode Title="GetCustomerInfo Method " Url="html/1810579730.htm" />
+        <HelpTOCNode Title="DoRegisterNewCustomer Method " Url="html/1148254737.htm" />
+        <HelpTOCNode Title="DoRegisterNewCustomerInDb Method " Url="html/1050151834.htm" />
+        <HelpTOCNode Title="OpenDbConnection Method " Url="html/1426484530.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+</HelpTOC>

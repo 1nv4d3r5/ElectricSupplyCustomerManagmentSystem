@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ESCMSStorage", "ESCMS Stora
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EscmsStyles", "EscmsStyles\EscmsStyles.csproj", "{0226B1B2-B6BB-441B-899E-29A36BDB74D7}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "ElectricSupplyCustomerManagmentSystemInstaller", "ElectricSupplyCustomerManagmentSystemInstaller\ElectricSupplyCustomerManagmentSystemInstaller.vdproj", "{C58D24B4-27AA-4044-9333-413B468AE656}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -59,6 +61,12 @@ Global
 		{0226B1B2-B6BB-441B-899E-29A36BDB74D7}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{0226B1B2-B6BB-441B-899E-29A36BDB74D7}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{0226B1B2-B6BB-441B-899E-29A36BDB74D7}.Release|x86.ActiveCfg = Release|Any CPU
+		{C58D24B4-27AA-4044-9333-413B468AE656}.Debug|Any CPU.ActiveCfg = Debug
+		{C58D24B4-27AA-4044-9333-413B468AE656}.Debug|Mixed Platforms.ActiveCfg = Debug
+		{C58D24B4-27AA-4044-9333-413B468AE656}.Debug|x86.ActiveCfg = Debug
+		{C58D24B4-27AA-4044-9333-413B468AE656}.Release|Any CPU.ActiveCfg = Release
+		{C58D24B4-27AA-4044-9333-413B468AE656}.Release|Mixed Platforms.ActiveCfg = Release
+		{C58D24B4-27AA-4044-9333-413B468AE656}.Release|x86.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

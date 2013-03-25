@@ -1,0 +1,576 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpKI>
+
+  <HelpKINode Title="AddBill class" Url="html/1082937720.htm" />
+  <HelpKINode Title="AddBill class" Url="html/750590532.htm" />
+  <HelpKINode Title="AddBill class">
+    <HelpKINode Title="about AddBill class" Url="html/1082937720.htm" />
+    <HelpKINode Title="all members" Url="html/750590532.htm" />
+    <HelpKINode Title="constructor" Url="html/1274776305.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AddBill.AddBill constructor" Url="html/1274776305.htm" />
+  <HelpKINode Title="AddContractor class" Url="html/1646331701.htm" />
+  <HelpKINode Title="AddContractor class" Url="html/2035682944.htm" />
+  <HelpKINode Title="AddContractor class">
+    <HelpKINode Title="about AddContractor class" Url="html/1646331701.htm" />
+    <HelpKINode Title="all members" Url="html/2035682944.htm" />
+    <HelpKINode Title="constructor" Url="html/548199807.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AddContractor.AddContractor constructor" Url="html/548199807.htm" />
+  <HelpKINode Title="AddCustomer class" Url="html/184105858.htm" />
+  <HelpKINode Title="AddCustomer class" Url="html/70076106.htm" />
+  <HelpKINode Title="AddCustomer class">
+    <HelpKINode Title="about AddCustomer class" Url="html/184105858.htm" />
+    <HelpKINode Title="all members" Url="html/70076106.htm" />
+    <HelpKINode Title="constructor" Url="html/2008338218.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AddCustomer.AddCustomer constructor" Url="html/2008338218.htm" />
+  <HelpKINode Title="AddEmployee class" Url="html/2004985829.htm" />
+  <HelpKINode Title="AddEmployee class" Url="html/754136453.htm" />
+  <HelpKINode Title="AddEmployee class">
+    <HelpKINode Title="about AddEmployee class" Url="html/754136453.htm" />
+    <HelpKINode Title="all members" Url="html/2004985829.htm" />
+    <HelpKINode Title="constructor" Url="html/697299837.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AddEmployee.AddEmployee constructor" Url="html/697299837.htm" />
+  <HelpKINode Title="AddEstimator class" Url="html/323922370.htm" />
+  <HelpKINode Title="AddEstimator class" Url="html/898447579.htm" />
+  <HelpKINode Title="AddEstimator class">
+    <HelpKINode Title="about AddEstimator class" Url="html/898447579.htm" />
+    <HelpKINode Title="all members" Url="html/323922370.htm" />
+    <HelpKINode Title="constructor" Url="html/77447771.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AddEstimator.AddEstimator constructor" Url="html/77447771.htm" />
+  <HelpKINode Title="AddPayment class" Url="html/352280904.htm" />
+  <HelpKINode Title="AddPayment class" Url="html/986423901.htm" />
+  <HelpKINode Title="AddPayment class">
+    <HelpKINode Title="about AddPayment class" Url="html/352280904.htm" />
+    <HelpKINode Title="all members" Url="html/986423901.htm" />
+    <HelpKINode Title="constructor" Url="html/484045064.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AddPayment.AddPayment constructor" Url="html/484045064.htm" />
+  <HelpKINode Title="AddQuotation class" Url="html/1386580595.htm" />
+  <HelpKINode Title="AddQuotation class" Url="html/1854513064.htm" />
+  <HelpKINode Title="AddQuotation class">
+    <HelpKINode Title="about AddQuotation class" Url="html/1386580595.htm" />
+    <HelpKINode Title="all members" Url="html/1854513064.htm" />
+    <HelpKINode Title="constructor" Url="html/429126127.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AddQuotation.AddQuotation constructor" Url="html/429126127.htm" />
+  <HelpKINode Title="address property" Url="html/1208593158.htm" />
+  <HelpKINode Title="address property" Url="html/1381266715.htm" />
+  <HelpKINode Title="address property" Url="html/20760907.htm" />
+  <HelpKINode Title="address property" Url="html/242146178.htm" />
+  <HelpKINode Title="address property" Url="html/392606584.htm" />
+  <HelpKINode Title="Admin enumeration member" Url="html/1173755643.htm" />
+  <HelpKINode Title="Admin field" Url="html/383155675.htm" />
+  <HelpKINode Title="amount property" Url="html/1351536428.htm" />
+  <HelpKINode Title="amountReceivedOn property" Url="html/374972579.htm" />
+  <HelpKINode Title="AngleType enumeration" Url="html/1791310350.htm" />
+  <HelpKINode Title="angleType property" Url="html/508211404.htm" />
+  <HelpKINode Title="AngleType.Long field" Url="html/919031045.htm" />
+  <HelpKINode Title="AngleType.Short field" Url="html/2058906891.htm" />
+  <HelpKINode Title="angleWeight property" Url="html/228069737.htm" />
+  <HelpKINode Title="App class" Url="html/146994748.htm" />
+  <HelpKINode Title="App class" Url="html/925390383.htm" />
+  <HelpKINode Title="App class">
+    <HelpKINode Title="about App class" Url="html/925390383.htm" />
+    <HelpKINode Title="all members" Url="html/146994748.htm" />
+    <HelpKINode Title="constructor" Url="html/2021606526.htm" />
+  </HelpKINode>
+  <HelpKINode Title="App.App constructor" Url="html/2021606526.htm" />
+  <HelpKINode Title="appsNo property" Url="html/1796226217.htm" />
+  <HelpKINode Title="appsNo property" Url="html/548176140.htm" />
+  <HelpKINode Title="AssignContractor class" Url="html/1784910850.htm" />
+  <HelpKINode Title="AssignContractor class" Url="html/1866821993.htm" />
+  <HelpKINode Title="AssignContractor class">
+    <HelpKINode Title="about AssignContractor class" Url="html/1784910850.htm" />
+    <HelpKINode Title="all members" Url="html/1866821993.htm" />
+    <HelpKINode Title="constructor" Url="html/723476552.htm" />
+  </HelpKINode>
+  <HelpKINode Title="assignContractor method" Url="html/859930894.htm" />
+  <HelpKINode Title="AssignContractor.AssignContractor constructor" Url="html/723476552.htm" />
+  <HelpKINode Title="assignEstimator method" Url="html/1086062923.htm" />
+  <HelpKINode Title="ChangePassword class" Url="html/1603259998.htm" />
+  <HelpKINode Title="ChangePassword class" Url="html/2092339123.htm" />
+  <HelpKINode Title="ChangePassword class">
+    <HelpKINode Title="about ChangePassword class" Url="html/1603259998.htm" />
+    <HelpKINode Title="all members" Url="html/2092339123.htm" />
+    <HelpKINode Title="constructor" Url="html/2001830235.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ChangePassword.ChangePassword constructor" Url="html/2001830235.htm" />
+  <HelpKINode Title="Connection class" Url="html/1885695833.htm" />
+  <HelpKINode Title="Connection class" Url="html/2119422741.htm" />
+  <HelpKINode Title="Connection class">
+    <HelpKINode Title="about Connection class" Url="html/2119422741.htm" />
+    <HelpKINode Title="all members" Url="html/1885695833.htm" />
+    <HelpKINode Title="constructor" Url="html/1094967248.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Connection.Connection constructor" Url="html/1094967248.htm" />
+  <HelpKINode Title="contact property" Url="html/1735715427.htm" />
+  <HelpKINode Title="contact property" Url="html/1801420035.htm" />
+  <HelpKINode Title="contact property" Url="html/490436982.htm" />
+  <HelpKINode Title="contact property" Url="html/609014157.htm" />
+  <HelpKINode Title="Contractor class" Url="html/2017809802.htm" />
+  <HelpKINode Title="Contractor class" Url="html/605352317.htm" />
+  <HelpKINode Title="Contractor class">
+    <HelpKINode Title="about Contractor class" Url="html/2017809802.htm" />
+    <HelpKINode Title="all members" Url="html/605352317.htm" />
+    <HelpKINode Title="constructor" Url="html/988847498.htm" />
+  </HelpKINode>
+  <HelpKINode Title="contractor property" Url="html/1462142321.htm" />
+  <HelpKINode Title="Contractor.Contractor constructor" Url="html/988847498.htm" />
+  <HelpKINode Title="ContractorBill class" Url="html/1055754286.htm" />
+  <HelpKINode Title="ContractorBill class" Url="html/1112746571.htm" />
+  <HelpKINode Title="ContractorBill class">
+    <HelpKINode Title="about ContractorBill class" Url="html/1112746571.htm" />
+    <HelpKINode Title="all members" Url="html/1055754286.htm" />
+    <HelpKINode Title="constructor" Url="html/352988732.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ContractorBill.ContractorBill constructor" Url="html/352988732.htm" />
+  <HelpKINode Title="ContractorInfo class" Url="html/1174659096.htm" />
+  <HelpKINode Title="ContractorInfo class" Url="html/1724623368.htm" />
+  <HelpKINode Title="ContractorInfo class">
+    <HelpKINode Title="about ContractorInfo class" Url="html/1724623368.htm" />
+    <HelpKINode Title="all members" Url="html/1174659096.htm" />
+    <HelpKINode Title="properties" Url="html/423815910.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ContractorInfo.address property" Url="html/20760907.htm" />
+  <HelpKINode Title="ContractorInfo.contact property" Url="html/490436982.htm" />
+  <HelpKINode Title="ContractorInfo.details property" Url="html/967254472.htm" />
+  <HelpKINode Title="ContractorInfo.id property" Url="html/847434218.htm" />
+  <HelpKINode Title="ContractorInfo.name property" Url="html/382088591.htm" />
+  <HelpKINode Title="Credits class" Url="html/1265334158.htm" />
+  <HelpKINode Title="Credits class" Url="html/1314378784.htm" />
+  <HelpKINode Title="Credits class">
+    <HelpKINode Title="about Credits class" Url="html/1314378784.htm" />
+    <HelpKINode Title="all members" Url="html/1265334158.htm" />
+    <HelpKINode Title="constructor" Url="html/516088750.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Credits.Credits constructor" Url="html/516088750.htm" />
+  <HelpKINode Title="Culture property" Url="html/3622430.htm" />
+  <HelpKINode Title="Customer class" Url="html/341872036.htm" />
+  <HelpKINode Title="Customer class" Url="html/602678145.htm" />
+  <HelpKINode Title="Customer class">
+    <HelpKINode Title="about Customer class" Url="html/602678145.htm" />
+    <HelpKINode Title="all members" Url="html/341872036.htm" />
+    <HelpKINode Title="constructor" Url="html/1688954872.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Customer.Customer constructor" Url="html/1688954872.htm" />
+  <HelpKINode Title="customerId property" Url="html/183999359.htm" />
+  <HelpKINode Title="customerId property" Url="html/1927590064.htm" />
+  <HelpKINode Title="CustomerInfo class" Url="html/1116911135.htm" />
+  <HelpKINode Title="CustomerInfo class" Url="html/1977677038.htm" />
+  <HelpKINode Title="CustomerInfo class">
+    <HelpKINode Title="about CustomerInfo class" Url="html/1977677038.htm" />
+    <HelpKINode Title="all members" Url="html/1116911135.htm" />
+    <HelpKINode Title="properties" Url="html/1396644874.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CustomerInfo.address property" Url="html/242146178.htm" />
+  <HelpKINode Title="CustomerInfo.contact property" Url="html/1735715427.htm" />
+  <HelpKINode Title="CustomerInfo.id property" Url="html/1236628407.htm" />
+  <HelpKINode Title="CustomerInfo.name property" Url="html/1987684513.htm" />
+  <HelpKINode Title="DataEnterer enumeration member" Url="html/1173755643.htm" />
+  <HelpKINode Title="DataEnterer field" Url="html/1300372204.htm" />
+  <HelpKINode Title="DbInteraction class" Url="html/1289587633.htm" />
+  <HelpKINode Title="DbInteraction class" Url="html/342713236.htm" />
+  <HelpKINode Title="DbInteraction class">
+    <HelpKINode Title="about DbInteraction class" Url="html/1289587633.htm" />
+    <HelpKINode Title="all members" Url="html/342713236.htm" />
+    <HelpKINode Title="fields" Url="html/1206131922.htm" />
+    <HelpKINode Title="methods" Url="html/1533148767.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DbInteraction.assignContractor method" Url="html/859930894.htm" />
+  <HelpKINode Title="DbInteraction.assignEstimator method" Url="html/1086062923.htm" />
+  <HelpKINode Title="DbInteraction.dbmsCurrent field" Url="html/1660226972.htm" />
+  <HelpKINode Title="DbInteraction.DeleteContractor method" Url="html/1339276314.htm" />
+  <HelpKINode Title="DbInteraction.DeleteCustomer method" Url="html/777247907.htm" />
+  <HelpKINode Title="DbInteraction.DeleteEmployee method" Url="html/1063718175.htm" />
+  <HelpKINode Title="DbInteraction.DeleteNewConnection method" Url="html/20815830.htm" />
+  <HelpKINode Title="DbInteraction.DeletePayment method" Url="html/52858128.htm" />
+  <HelpKINode Title="DbInteraction.DoRegisterNewContractor method" Url="html/1210459207.htm" />
+  <HelpKINode Title="DbInteraction.DoRegisterNewContractorInDb method" Url="html/1928701273.htm" />
+  <HelpKINode Title="DbInteraction.DoRegisterNewCustomer method" Url="html/1148254737.htm" />
+  <HelpKINode Title="DbInteraction.DoRegisterNewCustomerInDb method" Url="html/1050151834.htm" />
+  <HelpKINode Title="DbInteraction.DoRegisterNewEmployee method" Url="html/1550491716.htm" />
+  <HelpKINode Title="DbInteraction.DoRegisterNewEmployeeInDb method" Url="html/1865647085.htm" />
+  <HelpKINode Title="DbInteraction.DoRegisterNewEstimate method" Url="html/609941892.htm" />
+  <HelpKINode Title="DbInteraction.DoRegisterNewNewConnection method" Url="html/1684065515.htm" />
+  <HelpKINode Title="DbInteraction.DoRegisterNewNewConnectionInDb method" Url="html/976613813.htm" />
+  <HelpKINode Title="DbInteraction.DoRegisterNewPayment method" Url="html/894571452.htm" />
+  <HelpKINode Title="DbInteraction.DoRegisterNewPaymentInDb method" Url="html/496170997.htm" />
+  <HelpKINode Title="DbInteraction.EditContractor method" Url="html/4801882.htm" />
+  <HelpKINode Title="DbInteraction.EditCustomer method" Url="html/507489557.htm" />
+  <HelpKINode Title="DbInteraction.EditEmployee method" Url="html/1800519233.htm" />
+  <HelpKINode Title="DbInteraction.EditEstimate method" Url="html/696689896.htm" />
+  <HelpKINode Title="DbInteraction.EditNewConnection method" Url="html/6343451.htm" />
+  <HelpKINode Title="DbInteraction.EditPayment method" Url="html/472995797.htm" />
+  <HelpKINode Title="DbInteraction.GetAllContractorList method" Url="html/1952772800.htm" />
+  <HelpKINode Title="DbInteraction.GetAllCustomerList method" Url="html/1861452739.htm" />
+  <HelpKINode Title="DbInteraction.GetAllEmployeeList method" Url="html/1331812597.htm" />
+  <HelpKINode Title="DbInteraction.GetAllEstimateList method" Url="html/232901496.htm" />
+  <HelpKINode Title="DbInteraction.GetAllEstimateListWithContractor method" Url="html/1766494220.htm" />
+  <HelpKINode Title="DbInteraction.GetAllEstimatorList method" Url="html/1254587958.htm" />
+  <HelpKINode Title="DbInteraction.GetAllNewConnectionList method" Url="html/56517623.htm" />
+  <HelpKINode Title="DbInteraction.GetAllPaymentList method" Url="html/1403974569.htm" />
+  <HelpKINode Title="DbInteraction.GetCustomerInfo method" Url="html/1810579730.htm" />
+  <HelpKINode Title="DbInteraction.GetNewConnectionCustomerId method" Url="html/1512224991.htm" />
+  <HelpKINode Title="DbInteraction.GetPaymentInfo method" Url="html/739980924.htm" />
+  <HelpKINode Title="DbInteraction.GetUnassignedPaymentList method" Url="html/872448363.htm" />
+  <HelpKINode Title="DbInteraction.OpenDbConnection method" Url="html/1426484530.htm" />
+  <HelpKINode Title="DbInteraction.passwordCurrent field" Url="html/1264582883.htm" />
+  <HelpKINode Title="DbInteraction.QueryAllContractorList method" Url="html/1765220778.htm" />
+  <HelpKINode Title="DbInteraction.QueryAllCustomerList method" Url="html/1475639076.htm" />
+  <HelpKINode Title="DbInteraction.QueryAllEmployeeList method" Url="html/196411534.htm" />
+  <HelpKINode Title="DbInteraction.QueryAllNewConnectionList method" Url="html/1063003323.htm" />
+  <HelpKINode Title="DbInteraction.QueryAllPaymentList method" Url="html/1184634062.htm" />
+  <HelpKINode Title="DbInteraction.searchAllContractorList method" Url="html/909326777.htm" />
+  <HelpKINode Title="DbInteraction.searchAllCustomerList method" Url="html/1643879873.htm" />
+  <HelpKINode Title="DbInteraction.SearchAllEmployeeList method" Url="html/1211430329.htm" />
+  <HelpKINode Title="DbInteraction.SearchAllEmployeeListDetails method" Url="html/103138548.htm" />
+  <HelpKINode Title="DbInteraction.SearchContractorList method" Url="html/2054447216.htm" />
+  <HelpKINode Title="DbInteraction.searchCustomerList method" Url="html/975390868.htm" />
+  <HelpKINode Title="dbmsCurrent field" Url="html/1660226972.htm" />
+  <HelpKINode Title="Default property" Url="html/1858707664.htm" />
+  <HelpKINode Title="defaultInstance field" Url="html/1293236994.htm" />
+  <HelpKINode Title="DeleteContractor method" Url="html/1339276314.htm" />
+  <HelpKINode Title="DeleteCustomer method" Url="html/777247907.htm" />
+  <HelpKINode Title="DeleteEmployee method" Url="html/1063718175.htm" />
+  <HelpKINode Title="DeleteNewConnection method" Url="html/20815830.htm" />
+  <HelpKINode Title="DeletePayment method" Url="html/52858128.htm" />
+  <HelpKINode Title="department property" Url="html/643278041.htm" />
+  <HelpKINode Title="details property" Url="html/967254472.htm" />
+  <HelpKINode Title="doj property" Url="html/720900240.htm" />
+  <HelpKINode Title="dop property" Url="html/915084655.htm" />
+  <HelpKINode Title="DoRegisterNewContractor method" Url="html/1210459207.htm" />
+  <HelpKINode Title="DoRegisterNewContractorInDb method" Url="html/1928701273.htm" />
+  <HelpKINode Title="DoRegisterNewCustomer method" Url="html/1148254737.htm" />
+  <HelpKINode Title="DoRegisterNewCustomerInDb method" Url="html/1050151834.htm" />
+  <HelpKINode Title="DoRegisterNewEmployee method" Url="html/1550491716.htm" />
+  <HelpKINode Title="DoRegisterNewEmployeeInDb method" Url="html/1865647085.htm" />
+  <HelpKINode Title="DoRegisterNewEstimate method" Url="html/609941892.htm" />
+  <HelpKINode Title="DoRegisterNewNewConnection method" Url="html/1684065515.htm" />
+  <HelpKINode Title="DoRegisterNewNewConnectionInDb method" Url="html/976613813.htm" />
+  <HelpKINode Title="DoRegisterNewPayment method" Url="html/894571452.htm" />
+  <HelpKINode Title="DoRegisterNewPaymentInDb method" Url="html/496170997.htm" />
+  <HelpKINode Title="ECMS namespace" Url="html/88806692.htm" />
+  <HelpKINode Title="ECMS.AddBill class" Url="html/1082937720.htm" />
+  <HelpKINode Title="ECMS.AddBill class" Url="html/750590532.htm" />
+  <HelpKINode Title="ECMS.AddContractor class" Url="html/1646331701.htm" />
+  <HelpKINode Title="ECMS.AddContractor class" Url="html/2035682944.htm" />
+  <HelpKINode Title="ECMS.AddCustomer class" Url="html/184105858.htm" />
+  <HelpKINode Title="ECMS.AddCustomer class" Url="html/70076106.htm" />
+  <HelpKINode Title="ECMS.AddEmployee class" Url="html/2004985829.htm" />
+  <HelpKINode Title="ECMS.AddEmployee class" Url="html/754136453.htm" />
+  <HelpKINode Title="ECMS.AddEstimator class" Url="html/323922370.htm" />
+  <HelpKINode Title="ECMS.AddEstimator class" Url="html/898447579.htm" />
+  <HelpKINode Title="ECMS.AddPayment class" Url="html/352280904.htm" />
+  <HelpKINode Title="ECMS.AddPayment class" Url="html/986423901.htm" />
+  <HelpKINode Title="ECMS.AddQuotation class" Url="html/1386580595.htm" />
+  <HelpKINode Title="ECMS.AddQuotation class" Url="html/1854513064.htm" />
+  <HelpKINode Title="ECMS.App class" Url="html/146994748.htm" />
+  <HelpKINode Title="ECMS.App class" Url="html/925390383.htm" />
+  <HelpKINode Title="ECMS.AssignContractor class" Url="html/1784910850.htm" />
+  <HelpKINode Title="ECMS.AssignContractor class" Url="html/1866821993.htm" />
+  <HelpKINode Title="ECMS.ChangePassword class" Url="html/1603259998.htm" />
+  <HelpKINode Title="ECMS.ChangePassword class" Url="html/2092339123.htm" />
+  <HelpKINode Title="ECMS.Connection class" Url="html/1885695833.htm" />
+  <HelpKINode Title="ECMS.Connection class" Url="html/2119422741.htm" />
+  <HelpKINode Title="ECMS.Contractor class" Url="html/2017809802.htm" />
+  <HelpKINode Title="ECMS.Contractor class" Url="html/605352317.htm" />
+  <HelpKINode Title="ECMS.ContractorBill class" Url="html/1055754286.htm" />
+  <HelpKINode Title="ECMS.ContractorBill class" Url="html/1112746571.htm" />
+  <HelpKINode Title="ECMS.Credits class" Url="html/1265334158.htm" />
+  <HelpKINode Title="ECMS.Credits class" Url="html/1314378784.htm" />
+  <HelpKINode Title="ECMS.Customer class" Url="html/341872036.htm" />
+  <HelpKINode Title="ECMS.Customer class" Url="html/602678145.htm" />
+  <HelpKINode Title="ECMS.Employee class" Url="html/1910708793.htm" />
+  <HelpKINode Title="ECMS.Employee class" Url="html/2138040054.htm" />
+  <HelpKINode Title="ECMS.EstimationQuotationDisplay class" Url="html/1804908884.htm" />
+  <HelpKINode Title="ECMS.EstimationQuotationDisplay class" Url="html/2112478242.htm" />
+  <HelpKINode Title="ECMS.FirstLoginWindow class" Url="html/306491472.htm" />
+  <HelpKINode Title="ECMS.FirstLoginWindow class" Url="html/561732872.htm" />
+  <HelpKINode Title="ECMS.login class" Url="html/247903233.htm" />
+  <HelpKINode Title="ECMS.login class" Url="html/364855892.htm" />
+  <HelpKINode Title="ECMS.login.delegateOnSucccesfulLogin delegate" Url="html/2015326467.htm" />
+  <HelpKINode Title="ECMS.MainWindow class" Url="html/151598952.htm" />
+  <HelpKINode Title="ECMS.MainWindow class" Url="html/830531009.htm" />
+  <HelpKINode Title="ECMS.newapplication class" Url="html/1043524430.htm" />
+  <HelpKINode Title="ECMS.newapplication class" Url="html/1501638206.htm" />
+  <HelpKINode Title="ECMS.Payment class" Url="html/1809366012.htm" />
+  <HelpKINode Title="ECMS.Payment class" Url="html/598084544.htm" />
+  <HelpKINode Title="ECMS.Properties namespace" Url="html/497590079.htm" />
+  <HelpKINode Title="ECMS.Properties.Resources class" Url="html/1197881150.htm" />
+  <HelpKINode Title="ECMS.Properties.Resources class" Url="html/630978387.htm" />
+  <HelpKINode Title="ECMS.Properties.Settings class" Url="html/119188905.htm" />
+  <HelpKINode Title="ECMS.Properties.Settings class" Url="html/1587494287.htm" />
+  <HelpKINode Title="ECMS.Report class" Url="html/328979272.htm" />
+  <HelpKINode Title="ECMS.Report class" Url="html/72213809.htm" />
+  <HelpKINode Title="ECMS.Search class" Url="html/967863344.htm" />
+  <HelpKINode Title="ECMS.Search class" Url="html/994627739.htm" />
+  <HelpKINode Title="ECMS.Settings class" Url="html/1788945748.htm" />
+  <HelpKINode Title="ECMS.Settings class" Url="html/946478275.htm" />
+  <HelpKINode Title="ECMS.WorkOrder class" Url="html/260367122.htm" />
+  <HelpKINode Title="ECMS.WorkOrder class" Url="html/78502787.htm" />
+  <HelpKINode Title="EditContractor method" Url="html/4801882.htm" />
+  <HelpKINode Title="EditCustomer method" Url="html/507489557.htm" />
+  <HelpKINode Title="EditEmployee method" Url="html/1800519233.htm" />
+  <HelpKINode Title="EditEstimate method" Url="html/696689896.htm" />
+  <HelpKINode Title="EditNewConnection method" Url="html/6343451.htm" />
+  <HelpKINode Title="EditPayment method" Url="html/472995797.htm" />
+  <HelpKINode Title="Employee class" Url="html/1910708793.htm" />
+  <HelpKINode Title="Employee class" Url="html/2138040054.htm" />
+  <HelpKINode Title="Employee class">
+    <HelpKINode Title="about Employee class" Url="html/2138040054.htm" />
+    <HelpKINode Title="all members" Url="html/1910708793.htm" />
+    <HelpKINode Title="constructor" Url="html/2064792514.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Employee.Employee constructor" Url="html/2064792514.htm" />
+  <HelpKINode Title="EmployeeInfo class" Url="html/1573748673.htm" />
+  <HelpKINode Title="EmployeeInfo class" Url="html/1710459084.htm" />
+  <HelpKINode Title="EmployeeInfo class">
+    <HelpKINode Title="about EmployeeInfo class" Url="html/1710459084.htm" />
+    <HelpKINode Title="all members" Url="html/1573748673.htm" />
+    <HelpKINode Title="properties" Url="html/1935436458.htm" />
+  </HelpKINode>
+  <HelpKINode Title="EmployeeInfo.address property" Url="html/1208593158.htm" />
+  <HelpKINode Title="EmployeeInfo.contact property" Url="html/1801420035.htm" />
+  <HelpKINode Title="EmployeeInfo.department property" Url="html/643278041.htm" />
+  <HelpKINode Title="EmployeeInfo.doj property" Url="html/720900240.htm" />
+  <HelpKINode Title="EmployeeInfo.id property" Url="html/187181571.htm" />
+  <HelpKINode Title="EmployeeInfo.name property" Url="html/642849453.htm" />
+  <HelpKINode Title="EmployeeInfo.postType property" Url="html/231656280.htm" />
+  <HelpKINode Title="ESCMSData namespace" Url="html/1816997472.htm" />
+  <HelpKINode Title="ESCMSData.AngleType enumeration" Url="html/1791310350.htm" />
+  <HelpKINode Title="ESCMSData.ContractorInfo class" Url="html/1174659096.htm" />
+  <HelpKINode Title="ESCMSData.ContractorInfo class" Url="html/1724623368.htm" />
+  <HelpKINode Title="ESCMSData.CustomerInfo class" Url="html/1116911135.htm" />
+  <HelpKINode Title="ESCMSData.CustomerInfo class" Url="html/1977677038.htm" />
+  <HelpKINode Title="ESCMSData.EmployeeInfo class" Url="html/1573748673.htm" />
+  <HelpKINode Title="ESCMSData.EmployeeInfo class" Url="html/1710459084.htm" />
+  <HelpKINode Title="ESCMSData.estimateInfo class" Url="html/1282101193.htm" />
+  <HelpKINode Title="ESCMSData.estimateInfo class" Url="html/1498112846.htm" />
+  <HelpKINode Title="ESCMSData.NewConnectionInfo class" Url="html/1810384327.htm" />
+  <HelpKINode Title="ESCMSData.NewConnectionInfo class" Url="html/496899345.htm" />
+  <HelpKINode Title="ESCMSData.PaymentInfo class" Url="html/1106578629.htm" />
+  <HelpKINode Title="ESCMSData.PaymentInfo class" Url="html/1431872508.htm" />
+  <HelpKINode Title="ESCMSData.PostType enumeration" Url="html/1173755643.htm" />
+  <HelpKINode Title="ESCMSStorage namespace" Url="html/829645248.htm" />
+  <HelpKINode Title="ESCMSStorage.DbInteraction class" Url="html/1289587633.htm" />
+  <HelpKINode Title="ESCMSStorage.DbInteraction class" Url="html/342713236.htm" />
+  <HelpKINode Title="estimateInfo class" Url="html/1282101193.htm" />
+  <HelpKINode Title="estimateInfo class" Url="html/1498112846.htm" />
+  <HelpKINode Title="estimateInfo class">
+    <HelpKINode Title="about estimateInfo class" Url="html/1282101193.htm" />
+    <HelpKINode Title="all members" Url="html/1498112846.htm" />
+    <HelpKINode Title="properties" Url="html/1353262331.htm" />
+  </HelpKINode>
+  <HelpKINode Title="estimateInfo.address property" Url="html/392606584.htm" />
+  <HelpKINode Title="estimateInfo.angleType property" Url="html/508211404.htm" />
+  <HelpKINode Title="estimateInfo.angleWeight property" Url="html/228069737.htm" />
+  <HelpKINode Title="estimateInfo.appsNo property" Url="html/1796226217.htm" />
+  <HelpKINode Title="estimateInfo.contact property" Url="html/609014157.htm" />
+  <HelpKINode Title="estimateInfo.contractor property" Url="html/1462142321.htm" />
+  <HelpKINode Title="estimateInfo.estimator property" Url="html/1551390778.htm" />
+  <HelpKINode Title="estimateInfo.initialAmount property" Url="html/946970417.htm" />
+  <HelpKINode Title="estimateInfo.name property" Url="html/2103206362.htm" />
+  <HelpKINode Title="estimateInfo.quotationAmount property" Url="html/127657534.htm" />
+  <HelpKINode Title="estimateInfo.wireLength property" Url="html/778322640.htm" />
+  <HelpKINode Title="EstimationQuotationDisplay class" Url="html/1804908884.htm" />
+  <HelpKINode Title="EstimationQuotationDisplay class" Url="html/2112478242.htm" />
+  <HelpKINode Title="EstimationQuotationDisplay class">
+    <HelpKINode Title="about EstimationQuotationDisplay class" Url="html/2112478242.htm" />
+    <HelpKINode Title="all members" Url="html/1804908884.htm" />
+    <HelpKINode Title="constructor" Url="html/2073129294.htm" />
+  </HelpKINode>
+  <HelpKINode Title="EstimationQuotationDisplay.EstimationQuotationDisplay constructor" Url="html/2073129294.htm" />
+  <HelpKINode Title="Estimator enumeration member" Url="html/1173755643.htm" />
+  <HelpKINode Title="Estimator field" Url="html/1602338852.htm" />
+  <HelpKINode Title="estimator property" Url="html/1551390778.htm" />
+  <HelpKINode Title="FirstLoginWindow class" Url="html/306491472.htm" />
+  <HelpKINode Title="FirstLoginWindow class" Url="html/561732872.htm" />
+  <HelpKINode Title="FirstLoginWindow class">
+    <HelpKINode Title="about FirstLoginWindow class" Url="html/306491472.htm" />
+    <HelpKINode Title="all members" Url="html/561732872.htm" />
+    <HelpKINode Title="constructor" Url="html/697446364.htm" />
+  </HelpKINode>
+  <HelpKINode Title="FirstLoginWindow.FirstLoginWindow constructor" Url="html/697446364.htm" />
+  <HelpKINode Title="GetAllContractorList method" Url="html/1952772800.htm" />
+  <HelpKINode Title="GetAllCustomerList method" Url="html/1861452739.htm" />
+  <HelpKINode Title="GetAllEmployeeList method" Url="html/1331812597.htm" />
+  <HelpKINode Title="GetAllEstimateList method" Url="html/232901496.htm" />
+  <HelpKINode Title="GetAllEstimateListWithContractor method" Url="html/1766494220.htm" />
+  <HelpKINode Title="GetAllEstimatorList method" Url="html/1254587958.htm" />
+  <HelpKINode Title="GetAllNewConnectionList method" Url="html/56517623.htm" />
+  <HelpKINode Title="GetAllPaymentList method" Url="html/1403974569.htm" />
+  <HelpKINode Title="GetCustomerInfo method" Url="html/1810579730.htm" />
+  <HelpKINode Title="GetNewConnectionCustomerId method" Url="html/1512224991.htm" />
+  <HelpKINode Title="GetPaymentInfo method" Url="html/739980924.htm" />
+  <HelpKINode Title="GetUnassignedPaymentList method" Url="html/872448363.htm" />
+  <HelpKINode Title="id property" Url="html/1236628407.htm" />
+  <HelpKINode Title="id property" Url="html/187181571.htm" />
+  <HelpKINode Title="id property" Url="html/2131091953.htm" />
+  <HelpKINode Title="id property" Url="html/847434218.htm" />
+  <HelpKINode Title="initialAmount property" Url="html/563785903.htm" />
+  <HelpKINode Title="initialAmount property" Url="html/946970417.htm" />
+  <HelpKINode Title="login class" Url="html/247903233.htm" />
+  <HelpKINode Title="login class" Url="html/364855892.htm" />
+  <HelpKINode Title="login class">
+    <HelpKINode Title="about login class" Url="html/247903233.htm" />
+    <HelpKINode Title="all members" Url="html/364855892.htm" />
+    <HelpKINode Title="constructor" Url="html/1936096848.htm" />
+  </HelpKINode>
+  <HelpKINode Title="login.delegateOnSucccesfulLogin delegate" Url="html/2015326467.htm" />
+  <HelpKINode Title="login.login constructor" Url="html/1936096848.htm" />
+  <HelpKINode Title="Long enumeration member" Url="html/1791310350.htm" />
+  <HelpKINode Title="Long field" Url="html/919031045.htm" />
+  <HelpKINode Title="MainWindow class" Url="html/151598952.htm" />
+  <HelpKINode Title="MainWindow class" Url="html/830531009.htm" />
+  <HelpKINode Title="MainWindow class">
+    <HelpKINode Title="about MainWindow class" Url="html/830531009.htm" />
+    <HelpKINode Title="all members" Url="html/151598952.htm" />
+    <HelpKINode Title="constructor" Url="html/365720729.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MainWindow.MainWindow constructor" Url="html/365720729.htm" />
+  <HelpKINode Title="name property" Url="html/1987684513.htm" />
+  <HelpKINode Title="name property" Url="html/2103206362.htm" />
+  <HelpKINode Title="name property" Url="html/2107397023.htm" />
+  <HelpKINode Title="name property" Url="html/382088591.htm" />
+  <HelpKINode Title="name property" Url="html/474296722.htm" />
+  <HelpKINode Title="name property" Url="html/642849453.htm" />
+  <HelpKINode Title="newapplication class" Url="html/1043524430.htm" />
+  <HelpKINode Title="newapplication class" Url="html/1501638206.htm" />
+  <HelpKINode Title="newapplication class">
+    <HelpKINode Title="about newapplication class" Url="html/1501638206.htm" />
+    <HelpKINode Title="all members" Url="html/1043524430.htm" />
+    <HelpKINode Title="constructor" Url="html/1968577520.htm" />
+  </HelpKINode>
+  <HelpKINode Title="newapplication.newapplication constructor" Url="html/1968577520.htm" />
+  <HelpKINode Title="NewConnectionInfo class" Url="html/1810384327.htm" />
+  <HelpKINode Title="NewConnectionInfo class" Url="html/496899345.htm" />
+  <HelpKINode Title="NewConnectionInfo class">
+    <HelpKINode Title="about NewConnectionInfo class" Url="html/496899345.htm" />
+    <HelpKINode Title="all members" Url="html/1810384327.htm" />
+    <HelpKINode Title="properties" Url="html/1566240505.htm" />
+  </HelpKINode>
+  <HelpKINode Title="NewConnectionInfo.address property" Url="html/1381266715.htm" />
+  <HelpKINode Title="NewConnectionInfo.amountReceivedOn property" Url="html/374972579.htm" />
+  <HelpKINode Title="NewConnectionInfo.appsNo property" Url="html/548176140.htm" />
+  <HelpKINode Title="NewConnectionInfo.customerId property" Url="html/1927590064.htm" />
+  <HelpKINode Title="NewConnectionInfo.initialAmount property" Url="html/563785903.htm" />
+  <HelpKINode Title="NewConnectionInfo.name property" Url="html/2107397023.htm" />
+  <HelpKINode Title="NewConnectionInfo.paymentId property" Url="html/1685760834.htm" />
+  <HelpKINode Title="NewConnectionInfo.phone property" Url="html/1487463797.htm" />
+  <HelpKINode Title="NewConnectionInfo.quotationAmount property" Url="html/2038317317.htm" />
+  <HelpKINode Title="NewConnectionInfo.quotationSendDate property" Url="html/2038933737.htm" />
+  <HelpKINode Title="NewConnectionInfo.receivedDate property" Url="html/415140653.htm" />
+  <HelpKINode Title="NewConnectionInfo.serviceConnectionNo property" Url="html/1044292489.htm" />
+  <HelpKINode Title="Officer enumeration member" Url="html/1173755643.htm" />
+  <HelpKINode Title="Officer field" Url="html/1529383796.htm" />
+  <HelpKINode Title="OpenDbConnection method" Url="html/1426484530.htm" />
+  <HelpKINode Title="passwordCurrent field" Url="html/1264582883.htm" />
+  <HelpKINode Title="Payment class" Url="html/1809366012.htm" />
+  <HelpKINode Title="Payment class" Url="html/598084544.htm" />
+  <HelpKINode Title="Payment class">
+    <HelpKINode Title="about Payment class" Url="html/1809366012.htm" />
+    <HelpKINode Title="all members" Url="html/598084544.htm" />
+    <HelpKINode Title="constructor" Url="html/847245282.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Payment.Payment constructor" Url="html/847245282.htm" />
+  <HelpKINode Title="paymentId property" Url="html/1685760834.htm" />
+  <HelpKINode Title="PaymentInfo class" Url="html/1106578629.htm" />
+  <HelpKINode Title="PaymentInfo class" Url="html/1431872508.htm" />
+  <HelpKINode Title="PaymentInfo class">
+    <HelpKINode Title="about PaymentInfo class" Url="html/1106578629.htm" />
+    <HelpKINode Title="all members" Url="html/1431872508.htm" />
+    <HelpKINode Title="properties" Url="html/1171029359.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PaymentInfo.amount property" Url="html/1351536428.htm" />
+  <HelpKINode Title="PaymentInfo.customerId property" Url="html/183999359.htm" />
+  <HelpKINode Title="PaymentInfo.dop property" Url="html/915084655.htm" />
+  <HelpKINode Title="PaymentInfo.id property" Url="html/2131091953.htm" />
+  <HelpKINode Title="PaymentInfo.name property" Url="html/474296722.htm" />
+  <HelpKINode Title="phone property" Url="html/1487463797.htm" />
+  <HelpKINode Title="PostType enumeration" Url="html/1173755643.htm" />
+  <HelpKINode Title="postType property" Url="html/231656280.htm" />
+  <HelpKINode Title="PostType.Admin field" Url="html/383155675.htm" />
+  <HelpKINode Title="PostType.DataEnterer field" Url="html/1300372204.htm" />
+  <HelpKINode Title="PostType.Estimator field" Url="html/1602338852.htm" />
+  <HelpKINode Title="PostType.Officer field" Url="html/1529383796.htm" />
+  <HelpKINode Title="QueryAllContractorList method" Url="html/1765220778.htm" />
+  <HelpKINode Title="QueryAllCustomerList method" Url="html/1475639076.htm" />
+  <HelpKINode Title="QueryAllEmployeeList method" Url="html/196411534.htm" />
+  <HelpKINode Title="QueryAllNewConnectionList method" Url="html/1063003323.htm" />
+  <HelpKINode Title="QueryAllPaymentList method" Url="html/1184634062.htm" />
+  <HelpKINode Title="quotationAmount property" Url="html/127657534.htm" />
+  <HelpKINode Title="quotationAmount property" Url="html/2038317317.htm" />
+  <HelpKINode Title="quotationSendDate property" Url="html/2038933737.htm" />
+  <HelpKINode Title="receivedDate property" Url="html/415140653.htm" />
+  <HelpKINode Title="Report class" Url="html/328979272.htm" />
+  <HelpKINode Title="Report class" Url="html/72213809.htm" />
+  <HelpKINode Title="Report class">
+    <HelpKINode Title="about Report class" Url="html/328979272.htm" />
+    <HelpKINode Title="all members" Url="html/72213809.htm" />
+    <HelpKINode Title="constructor" Url="html/444908910.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Report.Report constructor" Url="html/444908910.htm" />
+  <HelpKINode Title="resourceCulture field" Url="html/1274619196.htm" />
+  <HelpKINode Title="resourceMan field" Url="html/610788696.htm" />
+  <HelpKINode Title="ResourceManager property" Url="html/492319293.htm" />
+  <HelpKINode Title="Resources class" Url="html/1197881150.htm" />
+  <HelpKINode Title="Resources class" Url="html/630978387.htm" />
+  <HelpKINode Title="Resources class">
+    <HelpKINode Title="about Resources class" Url="html/630978387.htm" />
+    <HelpKINode Title="all members" Url="html/1197881150.htm" />
+    <HelpKINode Title="constructor" Url="html/182140022.htm" />
+    <HelpKINode Title="fields" Url="html/1847336081.htm" />
+    <HelpKINode Title="properties" Url="html/418469873.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Resources.Culture property" Url="html/3622430.htm" />
+  <HelpKINode Title="Resources.resourceCulture field" Url="html/1274619196.htm" />
+  <HelpKINode Title="Resources.resourceMan field" Url="html/610788696.htm" />
+  <HelpKINode Title="Resources.ResourceManager property" Url="html/492319293.htm" />
+  <HelpKINode Title="Resources.Resources constructor" Url="html/182140022.htm" />
+  <HelpKINode Title="Search class" Url="html/967863344.htm" />
+  <HelpKINode Title="Search class" Url="html/994627739.htm" />
+  <HelpKINode Title="Search class">
+    <HelpKINode Title="about Search class" Url="html/994627739.htm" />
+    <HelpKINode Title="all members" Url="html/967863344.htm" />
+    <HelpKINode Title="constructor" Url="html/890247568.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Search.Search constructor" Url="html/890247568.htm" />
+  <HelpKINode Title="searchAllContractorList method" Url="html/909326777.htm" />
+  <HelpKINode Title="searchAllCustomerList method" Url="html/1643879873.htm" />
+  <HelpKINode Title="SearchAllEmployeeList method" Url="html/1211430329.htm" />
+  <HelpKINode Title="SearchAllEmployeeListDetails method" Url="html/103138548.htm" />
+  <HelpKINode Title="SearchContractorList method" Url="html/2054447216.htm" />
+  <HelpKINode Title="searchCustomerList method" Url="html/975390868.htm" />
+  <HelpKINode Title="serviceConnectionNo property" Url="html/1044292489.htm" />
+  <HelpKINode Title="Settings class" Url="html/119188905.htm" />
+  <HelpKINode Title="Settings class" Url="html/1587494287.htm" />
+  <HelpKINode Title="Settings class" Url="html/1788945748.htm" />
+  <HelpKINode Title="Settings class" Url="html/946478275.htm" />
+  <HelpKINode Title="Settings class">
+    <HelpKINode Title="about Settings class" Url="html/1587494287.htm" />
+    <HelpKINode Title="about Settings class" Url="html/1788945748.htm" />
+    <HelpKINode Title="all members" Url="html/119188905.htm" />
+    <HelpKINode Title="all members" Url="html/946478275.htm" />
+    <HelpKINode Title="constructor" Url="html/584845545.htm" />
+    <HelpKINode Title="fields" Url="html/232868118.htm" />
+    <HelpKINode Title="properties" Url="html/728700378.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Settings.Default property" Url="html/1858707664.htm" />
+  <HelpKINode Title="Settings.defaultInstance field" Url="html/1293236994.htm" />
+  <HelpKINode Title="Settings.Settings constructor" Url="html/584845545.htm" />
+  <HelpKINode Title="Short enumeration member" Url="html/1791310350.htm" />
+  <HelpKINode Title="Short field" Url="html/2058906891.htm" />
+  <HelpKINode Title="wireLength property" Url="html/778322640.htm" />
+  <HelpKINode Title="WorkOrder class" Url="html/260367122.htm" />
+  <HelpKINode Title="WorkOrder class" Url="html/78502787.htm" />
+  <HelpKINode Title="WorkOrder class">
+    <HelpKINode Title="about WorkOrder class" Url="html/78502787.htm" />
+    <HelpKINode Title="all members" Url="html/260367122.htm" />
+    <HelpKINode Title="constructor" Url="html/524469041.htm" />
+  </HelpKINode>
+  <HelpKINode Title="WorkOrder.WorkOrder constructor" Url="html/524469041.htm" />
+</HelpKI>
